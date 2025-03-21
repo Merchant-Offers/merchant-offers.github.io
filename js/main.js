@@ -1,24 +1,39 @@
 // Global variables
 let allOffers = [];
-const dataUrl = 'data/credit_card_offers.json';
+// Handle both local and GitHub Pages environments
+const dataUrl = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
+    ? 'data/credit_card_offers.json' 
+    : '/data/credit_card_offers.json';
 
 // Fetch offers data from JSON file
 async function loadOffers() {
-    try {
-        const response = await fetch(dataUrl);
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        
-        allOffers = await response.json();
-        renderOffers(allOffers);
-        
-        // Remove loading indicator
-        document.querySelector('.loading')?.remove();
-    } catch (error) {
-        console.error("Error loading offers:", error);
-        document.querySelector('.loading').textContent = 'Error loading offers. Please try again later.';
-    }
+  try {
+      console.log("Attempting to load data from:", dataUrl);
+      
+      const response = await fetch(dataUrl);
+      if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log(`Successfully loaded ${data.length} offers`);
+      
+      allOffers = data;
+      renderOffers(allOffers);
+      
+      // Remove loading indicator
+      document.querySelector('.loading')?.remove();
+  } catch (error) {
+      console.error("Error loading offers:", error);
+      const errorMsg = `Error loading offers: ${error.message}. Please try again later.`;
+      document.querySelector('.loading').textContent = errorMsg;
+      
+      // Add technical details for debugging (only visible in console)
+      console.log("Technical details:");
+      console.log("- Current URL:", window.location.href);
+      console.log("- Data URL attempted:", dataUrl);
+      console.log("- Error object:", error);
+  }
 }
 
 // Group offers by merchant name
