@@ -8,6 +8,120 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon -->
     <link rel="icon" href="images/icon.png" type="image/png">
+    <style>
+        .navigation {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        
+        .navigation a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        
+        .community-section {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .community-section h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        
+        .community-section p {
+            margin-bottom: 1rem;
+        }
+        
+        .community-section a {
+            color: #4CAF50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .community-section a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Checkbox filter styles */
+        .checkbox-filter {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        
+        .checkbox-filter-label {
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+        
+        .checkbox-option {
+            display: flex;
+            align-items: center;
+            margin-right: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .checkbox-option input {
+            margin-right: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .checkbox-option label {
+            cursor: pointer;
+        }
+        
+        .filter-actions {
+            margin-left: auto;
+        }
+        
+        .filter-actions button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+        
+        .filter-actions button:hover {
+            background-color: #45a049;
+        }
+        
+        @media (max-width: 768px) {
+            .checkbox-filter {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .checkbox-option {
+                margin-top: 0.5rem;
+            }
+            
+            .filter-actions {
+                margin-left: 0;
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -19,6 +133,12 @@
             <p class="tagline">Find the best credit card rewards across major banks</p>
         </header>
         
+        <div class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="help.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        
         <div class="disclaimer">
             <p><strong>Disclaimer:</strong> This site provides a guide to potentially available credit card offers. Please check your card issuer's app or website for the most current offers available to you. Offers may vary based on your account and some offers shown here may have expired. We update this information monthly but cannot guarantee accuracy.</p>
         </div>
@@ -27,14 +147,38 @@
             <input type="text" id="searchInput" class="search-input" placeholder="Search for merchants or offers...">
         </div>
         
-        <div class="filter-container">
-            <span>Filter by card: </span>
-            <button class="filter-btn active" data-card="all">All Cards</button>
-            <button class="filter-btn" data-card="American Express">Amex</button>
-            <button class="filter-btn" data-card="Chase">Chase</button>
-            <button class="filter-btn" data-card="Citi">Citi</button>
-            <button class="filter-btn" data-card="Wells Fargo">Wells Fargo</button>
-            <button class="filter-btn" data-card="US Bank">US Bank</button>
+        <div class="checkbox-filter">
+            <span class="checkbox-filter-label">Filter by card:</span>
+            
+            <div class="checkbox-option">
+                <input type="checkbox" id="amex" value="American Express" checked>
+                <label for="amex">Amex</label>
+            </div>
+            
+            <div class="checkbox-option">
+                <input type="checkbox" id="chase" value="Chase" checked>
+                <label for="chase">Chase</label>
+            </div>
+            
+            <div class="checkbox-option">
+                <input type="checkbox" id="citi" value="Citi" checked>
+                <label for="citi">Citi</label>
+            </div>
+            
+            <div class="checkbox-option">
+                <input type="checkbox" id="wellsFargo" value="Wells Fargo" checked>
+                <label for="wellsFargo">Wells Fargo</label>
+            </div>
+            
+            <div class="checkbox-option">
+                <input type="checkbox" id="usBank" value="US Bank" checked>
+                <label for="usBank">US Bank</label>
+            </div>
+            
+            <div class="filter-actions">
+                <button id="selectAll">Select All</button>
+                <button id="clearAll">Clear All</button>
+            </div>
         </div>
         
         <div id="offersContainer">
@@ -42,11 +186,18 @@
             <div class="loading">Loading offers...</div>
         </div>
         
+        <div class="community-section">
+            <h3>Help Us Improve</h3>
+            <p>Know of an offer we're missing? Found an outdated deal? Having trouble with our extension?</p>
+            <p><a href="help.html">Visit our support page</a> to submit new offers, report outdated ones, or get help with any issues.</p>
+        </div>
+        
         <div class="extension-promo">
             <div class="promo-content">
                 <div class="promo-text">
-                    <h3> Get the Chrome Extension!</h3>               
-                    <p>Get notified of available offers when you visit merchant websites!                 <a href="#" class="promo-button" id="extensionLink">Coming Soon!</a>
+                    <h3>Get the Chrome Extension!</h3>               
+                    <p>Get notified of available offers when you visit merchant websites!                 
+                    <a href="#" class="promo-button" id="extensionLink">Coming Soon!</a>
                     </p>
                 </div>
             </div>
@@ -60,13 +211,92 @@
 
     <script src="js/main.js"></script>
     <script>
-        // Update the extension link when available
+        // Extension link
         document.getElementById('extensionLink').addEventListener('click', function(e) {
             e.preventDefault();
             // Replace with your actual Chrome Web Store URL when available
             alert('Coming soon to the Chrome Web Store!');
             // Uncomment when you have the Chrome Web Store URL:
             // window.open('https://chrome.google.com/webstore/detail/your-extension-id', '_blank');
+        });
+        
+        // Checkbox filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get checkboxes and buttons
+            const checkboxes = document.querySelectorAll('.checkbox-option input');
+            const selectAllBtn = document.getElementById('selectAll');
+            const clearAllBtn = document.getElementById('clearAll');
+            
+            // Add event listeners to checkboxes
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', filterOffers);
+            });
+            
+            // Select all button
+            selectAllBtn.addEventListener('click', function() {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = true;
+                });
+                filterOffers();
+            });
+            
+            // Clear all button
+            clearAllBtn.addEventListener('click', function() {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                filterOffers();
+            });
+            
+            // Function to filter offers based on checkboxes
+            function filterOffers() {
+                // Get selected card values
+                const selectedCards = Array.from(checkboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.value);
+                
+                // Get all offer elements
+                const offerElements = document.querySelectorAll('.offer-item');
+                
+                // If no cards selected, hide all offers
+                if (selectedCards.length === 0) {
+                    offerElements.forEach(offer => {
+                        offer.style.display = 'none';
+                    });
+                    return;
+                }
+                
+                // Filter offers based on selected cards
+                offerElements.forEach(offer => {
+                    const cardType = offer.getAttribute('data-card');
+                    if (selectedCards.includes(cardType)) {
+                        offer.style.display = 'block';
+                    } else {
+                        offer.style.display = 'none';
+                    }
+                });
+                
+                // Also apply any search filter if it exists
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                if (searchTerm) {
+                    offerElements.forEach(offer => {
+                        const merchantName = offer.getAttribute('data-merchant').toLowerCase();
+                        const offerText = offer.textContent.toLowerCase();
+                        
+                        if ((merchantName.includes(searchTerm) || offerText.includes(searchTerm)) && 
+                            selectedCards.includes(offer.getAttribute('data-card'))) {
+                            offer.style.display = 'block';
+                        } else {
+                            offer.style.display = 'none';
+                        }
+                    });
+                }
+            }
+            
+            // Add search functionality
+            document.getElementById('searchInput').addEventListener('input', function() {
+                filterOffers();
+            });
         });
     </script>
 </body>
