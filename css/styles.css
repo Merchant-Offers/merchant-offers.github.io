@@ -302,7 +302,7 @@ footer {
 
   /* Adjust the size of the logo icon */
   .logo-icon {
-    width: 150px;  /* Set the width to a smaller size */
+    width: 140px;  /* Set the width to a smaller size */
     height: auto; /* Keep the aspect ratio intact */
   }
 
