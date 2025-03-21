@@ -7,12 +7,15 @@
     <meta name="description" content="Find and compare the best credit card offers from American Express, Chase, Citi, Wells Fargo, and US Bank">
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/icon.png" type="image/png">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Merchant Offers</h1>
+            <div class="logo">
+              <img src="images/icon.png" alt="Merchant Offers Logo" class="logo-icon">
+              <h1>Merchant Offers</h1>
+            </div>
             <p class="tagline">Find the best credit card rewards across major banks</p>
         </header>
         
@@ -39,6 +42,16 @@
             <div class="loading">Loading offers...</div>
         </div>
         
+        <div class="extension-promo">
+            <div class="promo-content">
+                <div class="promo-text">
+                    <h3> Get the Chrome Extension!</h3>               
+                    <p>Get notified of available offers when you visit merchant websites!                 <a href="#" class="promo-button" id="extensionLink">Coming Soon!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
         <footer>
             <p>&copy; 2025 MerchantOffers.online - Updated monthly with the latest card offers</p>
             <p class="disclaimer-footer">This site is for informational purposes only. All offers are subject to change and may not be available to all cardholders.</p>
@@ -46,5 +59,15 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script>
+        // Update the extension link when available
+        document.getElementById('extensionLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Replace with your actual Chrome Web Store URL when available
+            alert('Coming soon to the Chrome Web Store!');
+            // Uncomment when you have the Chrome Web Store URL:
+            // window.open('https://chrome.google.com/webstore/detail/your-extension-id', '_blank');
+        });
+    </script>
 </body>
 </html>
