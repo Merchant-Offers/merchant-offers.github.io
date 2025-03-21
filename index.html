@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchant Offers - Credit Card Rewards Comparison</title>
+    <meta name="description" content="Compare credit card offers and rewards across Amex, Chase, Citi, Wells Fargo, and US Bank">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Merchant Offers</h1>
+            <p class="tagline">Find the best credit card offers across major banks</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search for merchants...">
+        </div>
+        
+        <div class="filter-container">
+            <span>Filter by card: </span>
+            <button class="filter-btn active" data-card="all">All Cards</button>
+            <button class="filter-btn" data-card="American Express">Amex</button>
+            <button class="filter-btn" data-card="Chase">Chase</button>
+            <button class="filter-btn" data-card="Citi">Citi</button>
+            <button class="filter-btn" data-card="Wells Fargo">Wells Fargo</button>
+            <button class="filter-btn" data-card="US Bank">US Bank</button>
+        </div>
+        
+        <div id="categoriesContainer">
+            <!-- Categories will be populated here by JavaScript -->
+            <div class="loading">Loading offers...</div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 MerchantOffers.online - All credit card offers are updated regularly</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
