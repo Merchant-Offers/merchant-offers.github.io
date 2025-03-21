@@ -1779,7 +1779,7 @@
   },
   {
     "card": "Citi",
-    "merchant": "At&T Wireless",
+    "merchant": "AT&T",
     "offer": "$50 back",
     "days_left": "40d left",
     "category": "General"
@@ -1800,7 +1800,7 @@
   },
   {
     "card": "Wells Fargo",
-    "merchant": "At&T Wireless Plans",
+    "merchant": "AT&T",
     "offer": "$75 cash back",
     "days_left": "04/29/25",
     "category": "General"
@@ -2122,7 +2122,7 @@
   },
   {
     "card": "US Bank",
-    "merchant": "At&T Mobility",
+    "merchant": "AT&T",
     "offer": "$75 cash back",
     "days_left": "",
     "category": "General"
