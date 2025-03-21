@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merchant Offers - Credit Card Rewards Comparison</title>
-    <meta name="description" content="Compare credit card offers and rewards across Amex, Chase, Citi, Wells Fargo, and US Bank">
+    <meta name="description" content="Find and compare the best credit card offers from American Express, Chase, Citi, Wells Fargo, and US Bank">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Merchant Offers</h1>
-            <p class="tagline">Find the best credit card offers across major banks</p>
+            <p class="tagline">Find the best credit card rewards across major banks</p>
         </header>
         
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This site provides a guide to potentially available credit card offers. Please check your card issuer's app or website for the most current offers available to you. Offers may vary based on your account and some offers shown here may have expired. We update this information monthly but cannot guarantee accuracy.</p>
+        </div>
+        
         <div class="search-container">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search for merchants...">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search for merchants or offers...">
         </div>
         
         <div class="filter-container">
@@ -28,13 +34,19 @@
             <button class="filter-btn" data-card="US Bank">US Bank</button>
         </div>
         
-        <div id="categoriesContainer">
-            <!-- Categories will be populated here by JavaScript -->
+        <div id="offersContainer">
+            <!-- Offers will be populated here by JavaScript -->
             <div class="loading">Loading offers...</div>
         </div>
         
         <footer>
-            <p>&copy; 2025 MerchantOffers.online - All credit card offers are updated regularly</p>
+            <p>&copy; 2025 MerchantOffers.online - Updated monthly with the latest card offers</p>
+            <p class="disclaimer-footer">This site is for informational purposes only. All offers are subject to change and may not be available to all cardholders.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Merchant-Offers/merchant-offers.github.io" target="_blank">GitHub</a>
+                <span class="separator">|</span>
+                <a href="mailto:offersmerchant@gmail.com">Contact</a>
+            </div>
         </footer>
     </div>
 

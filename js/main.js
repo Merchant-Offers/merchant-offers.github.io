@@ -21,33 +21,44 @@ async function loadOffers() {
     }
 }
 
-// Organize offers by merchant and category
+// Group offers by merchant name
 function organizeOffers(offers) {
-    const categorizedMerchants = {};
+    const merchantGroups = {};
     
-    // Group by category and then by merchant
+    // Group by merchant
     offers.forEach(offer => {
-        // Use "General" as default category if none provided
-        const category = offer.category || "General";
-        
-        if (!categorizedMerchants[category]) {
-            categorizedMerchants[category] = {};
+        if (!merchantGroups[offer.merchant]) {
+            merchantGroups[offer.merchant] = [];
         }
         
-        if (!categorizedMerchants[category][offer.merchant]) {
-            categorizedMerchants[category][offer.merchant] = [];
-        }
-        
-        categorizedMerchants[category][offer.merchant].push(offer);
+        merchantGroups[offer.merchant].push(offer);
     });
     
-    return categorizedMerchants;
+    return merchantGroups;
+}
+
+// Clean offer text to remove dates
+function cleanOfferText(text) {
+    // Remove date patterns
+    text = text.replace(/\d{1,2}\/\d{1,2}\/\d{2,4}/g, ''); // Remove dates like 03/31/25
+    text = text.replace(/expires\s+\w+\s+\d{1,2}(st|nd|rd|th)?,?\s+\d{4}/i, ''); // Expires March 31st, 2025
+    text = text.replace(/expires\s+in\s+\d+\s+days?/i, ''); // Expires in 10 days
+    text = text.replace(/expires\s+\w+/i, ''); // Expires today
+    
+    // Clean up any leftover text
+    text = text.replace(/valid\s+until.*/i, '');
+    text = text.replace(/through.*/i, '');
+    
+    // Trim whitespace and punctuation at the end
+    text = text.replace(/[.,;:]\s*$/, '');
+    
+    return text.trim();
 }
 
 // Render all offers
 function renderOffers(offers) {
-    const categorizedMerchants = organizeOffers(offers);
-    const container = document.getElementById('categoriesContainer');
+    const merchantGroups = organizeOffers(offers);
+    const container = document.getElementById('offersContainer');
     container.innerHTML = '';
     
     // If no offers to display
@@ -59,60 +70,104 @@ function renderOffers(offers) {
         return;
     }
     
-    // Loop through each category
-    Object.keys(categorizedMerchants).sort().forEach(category => {
-        const categorySection = document.createElement('div');
-        categorySection.innerHTML = `<h2 class="category-title">${category}</h2>`;
+    const merchantList = document.createElement('div');
+    merchantList.className = 'merchant-list';
+    
+    // Create a card for each merchant
+    Object.keys(merchantGroups).sort().forEach(merchant => {
+        const merchantOffers = merchantGroups[merchant];
         
-        const merchantList = document.createElement('div');
-        merchantList.className = 'merchant-list';
+        const merchantCard = document.createElement('div');
+        merchantCard.className = 'merchant-card';
         
-        // Loop through merchants in this category
-        Object.keys(categorizedMerchants[category]).sort().forEach(merchant => {
-            const merchantOffers = categorizedMerchants[category][merchant];
+        // Create merchant header and toggle button
+        const merchantHeader = document.createElement('div');
+        merchantHeader.className = 'merchant-header';
+        merchantHeader.innerHTML = `
+            <div class="merchant-name">${merchant}</div>
+            <button class="toggle-btn">View Offers</button>
+        `;
+        
+        // Find best offer to display on the card
+        let bestOffer = findBestOffer(merchantOffers);
+        const offerPreview = document.createElement('div');
+        offerPreview.className = 'offer-preview';
+        offerPreview.innerHTML = `<span class="best-offer">${cleanOfferText(bestOffer)}</span>`;
+        
+        // Create offer details section
+        const offerDetails = document.createElement('div');
+        offerDetails.className = 'offer-details';
+        
+        // Sort offers by value (best first)
+        const sortedOffers = sortOffersByValue(merchantOffers);
+        
+        // Add each card's offer for this merchant
+        sortedOffers.forEach(offer => {
+            const offerRow = document.createElement('div');
+            offerRow.className = 'offer-row';
             
-            const merchantCard = document.createElement('div');
-            merchantCard.className = 'merchant-card';
-            
-            // Create merchant header and toggle button
-            const merchantHeader = document.createElement('div');
-            merchantHeader.className = 'merchant-header';
-            merchantHeader.innerHTML = `
-                <div class="merchant-name">${merchant}</div>
-                <button class="toggle-btn">View Offers</button>
+            // Don't show expiration dates, just the offer
+            offerRow.innerHTML = `
+                <div class="card-name">${offer.card}</div>
+                <div class="offer-value">${cleanOfferText(offer.offer)}</div>
             `;
-            
-            // Create offer details section
-            const offerDetails = document.createElement('div');
-            offerDetails.className = 'offer-details';
-            
-            // Add each card's offer for this merchant
-            merchantOffers.forEach(offer => {
-                const offerRow = document.createElement('div');
-                offerRow.className = 'offer-row';
-                offerRow.innerHTML = `
-                    <div class="card-name">${offer.card}</div>
-                    <div class="offer-value">${offer.offer}</div>
-                `;
-                offerDetails.appendChild(offerRow);
-            });
-            
-            // Add toggle functionality
-            merchantHeader.querySelector('.toggle-btn').addEventListener('click', function() {
-                const isVisible = offerDetails.style.display === 'block';
-                offerDetails.style.display = isVisible ? 'none' : 'block';
-                this.textContent = isVisible ? 'View Offers' : 'Hide Offers';
-            });
-            
-            // Assemble merchant card
-            merchantCard.appendChild(merchantHeader);
-            merchantCard.appendChild(offerDetails);
-            merchantList.appendChild(merchantCard);
+            offerDetails.appendChild(offerRow);
         });
         
-        categorySection.appendChild(merchantList);
-        container.appendChild(categorySection);
+        // Add toggle functionality
+        merchantHeader.querySelector('.toggle-btn').addEventListener('click', function() {
+            const isVisible = offerDetails.style.display === 'block';
+            offerDetails.style.display = isVisible ? 'none' : 'block';
+            this.textContent = isVisible ? 'View Offers' : 'Hide Offers';
+        });
+        
+        // Assemble merchant card
+        merchantCard.appendChild(merchantHeader);
+        merchantCard.appendChild(offerPreview);
+        merchantCard.appendChild(offerDetails);
+        merchantList.appendChild(merchantCard);
     });
+    
+    container.appendChild(merchantList);
+}
+
+// Sort offers by value (best first)
+function sortOffersByValue(offers) {
+    return [...offers].sort((a, b) => {
+        const aValue = getOfferValue(a.offer);
+        const bValue = getOfferValue(b.offer);
+        return bValue - aValue;
+    });
+}
+
+// Get numerical value from an offer string
+function getOfferValue(offerText) {
+    // Extract percentage
+    const percentMatch = offerText.match(/(\d+)%/);
+    if (percentMatch) {
+        return parseInt(percentMatch[1]);
+    }
+    
+    // Extract dollar amount
+    const dollarMatch = offerText.match(/\$(\d+)/);
+    if (dollarMatch) {
+        return parseInt(dollarMatch[1]);
+    }
+    
+    return 0;
+}
+
+// Find the best offer for a merchant
+function findBestOffer(offers) {
+    if (!offers || offers.length === 0) {
+        return '';
+    }
+    
+    // Sort offers by value
+    const sortedOffers = sortOffersByValue(offers);
+    
+    // Return the highest value offer
+    return sortedOffers[0].offer;
 }
 
 // Filter offers by card
@@ -141,7 +196,8 @@ function setupSearch() {
                 renderOffers(allOffers);
             } else {
                 const filteredOffers = allOffers.filter(offer => 
-                    offer.merchant.toLowerCase().includes(searchTerm)
+                    offer.merchant.toLowerCase().includes(searchTerm) ||
+                    offer.offer.toLowerCase().includes(searchTerm)
                 );
                 renderOffers(filteredOffers);
             }
