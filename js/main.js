@@ -7,33 +7,36 @@ const dataUrl = location.hostname === 'localhost' || location.hostname === '127.
 
 // Fetch offers data from JSON file
 async function loadOffers() {
-  try {
-      console.log("Attempting to load data from:", dataUrl);
-      
-      const response = await fetch(dataUrl);
-      if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      console.log(`Successfully loaded ${data.length} offers`);
-      
-      allOffers = data;
-      renderOffers(allOffers);
-      
-      // Remove loading indicator
-      document.querySelector('.loading')?.remove();
-  } catch (error) {
-      console.error("Error loading offers:", error);
-      const errorMsg = `Error loading offers: ${error.message}. Please try again later.`;
-      document.querySelector('.loading').textContent = errorMsg;
-      
-      // Add technical details for debugging (only visible in console)
-      console.log("Technical details:");
-      console.log("- Current URL:", window.location.href);
-      console.log("- Data URL attempted:", dataUrl);
-      console.log("- Error object:", error);
-  }
+    try {
+        console.log("Attempting to load data from:", dataUrl);
+        
+        const response = await fetch(dataUrl);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        console.log(`Successfully loaded ${data.length} offers`);
+        
+        allOffers = data;
+        
+        // Remove loading indicator
+        document.querySelector('.loading')?.remove();
+        
+        return data;
+    } catch (error) {
+        console.error("Error loading offers:", error);
+        const errorMsg = `Error loading offers: ${error.message}. Please try again later.`;
+        document.querySelector('.loading').textContent = errorMsg;
+        
+        // Add technical details for debugging (only visible in console)
+        console.log("Technical details:");
+        console.log("- Current URL:", window.location.href);
+        console.log("- Data URL attempted:", dataUrl);
+        console.log("- Error object:", error);
+        
+        return [];
+    }
 }
 
 // Group offers by merchant name
@@ -70,20 +73,57 @@ function cleanOfferText(text) {
     return text.trim();
 }
 
+// Filter and render offers based on current checkboxes and search
+function applyFiltersAndRender() {
+    // Get selected card values
+    const selectedCards = Array.from(document.querySelectorAll('.checkbox-option input:checked'))
+        .map(checkbox => checkbox.value);
+    
+    // Get search term
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+    
+    // Filter by selected cards - if no cards selected, show no results
+    let filteredOffers = [];
+    
+    if (selectedCards.length > 0) {
+        filteredOffers = allOffers.filter(offer => {
+            // Special handling for Amex variations
+            if (selectedCards.includes("Amex") && 
+                (offer.card === "Amex" || 
+                 offer.card === "Amex New Card" || 
+                 offer.card === "Amex Member Week" ||
+                 offer.card.startsWith("Amex"))) {
+                return true;
+            }
+            
+            // Standard filter for other cards
+            return selectedCards.includes(offer.card);
+        });
+        
+        // Then filter by search term
+        if (searchTerm) {
+            filteredOffers = filteredOffers.filter(offer => 
+                offer.merchant.toLowerCase().includes(searchTerm) ||
+                offer.offer.toLowerCase().includes(searchTerm)
+            );
+        }
+    }
+    
+    // Show/hide no results message
+    if (filteredOffers.length === 0) {
+        document.getElementById('noResults').style.display = 'block';
+        document.getElementById('offersContainer').innerHTML = ''; // Clear offers container
+    } else {
+        document.getElementById('noResults').style.display = 'none';
+        renderOffers(filteredOffers);
+    }
+}
+
 // Render all offers
 function renderOffers(offers) {
     const merchantGroups = organizeOffers(offers);
     const container = document.getElementById('offersContainer');
     container.innerHTML = '';
-    
-    // If no offers to display
-    if (offers.length === 0) {
-        const noResults = document.createElement('div');
-        noResults.className = 'no-results';
-        noResults.textContent = 'No offers match your search. Try different search terms or filters.';
-        container.appendChild(noResults);
-        return;
-    }
     
     const merchantList = document.createElement('div');
     merchantList.className = 'merchant-list';
@@ -120,6 +160,7 @@ function renderOffers(offers) {
         sortedOffers.forEach(offer => {
             const offerRow = document.createElement('div');
             offerRow.className = 'offer-row';
+            offerRow.setAttribute('data-card', offer.card);
             
             // Don't show expiration dates, just the offer
             offerRow.innerHTML = `
@@ -185,59 +226,54 @@ function findBestOffer(offers) {
     return sortedOffers[0].offer;
 }
 
-// Filter offers by card
-function filterOffersByCard(cardName) {
-    if (cardName === 'all') {
-        renderOffers(allOffers);
-    } else {
-        const filteredOffers = allOffers.filter(offer => offer.card === cardName);
-        renderOffers(filteredOffers);
-    }
-}
-
-// Search functionality
-function setupSearch() {
-    const searchInput = document.getElementById('searchInput');
-    
-    // Add debounce to improve performance
-    let debounceTimeout;
-    
-    searchInput.addEventListener('input', function() {
-        clearTimeout(debounceTimeout);
-        
-        debounceTimeout = setTimeout(() => {
-            const searchTerm = this.value.toLowerCase();
-            if (searchTerm.length === 0) {
-                renderOffers(allOffers);
-            } else {
-                const filteredOffers = allOffers.filter(offer => 
-                    offer.merchant.toLowerCase().includes(searchTerm) ||
-                    offer.offer.toLowerCase().includes(searchTerm)
-                );
-                renderOffers(filteredOffers);
-            }
-        }, 300);
-    });
-}
-
-// Setup card filters
-function setupFilters() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    filterButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            // Update active button
-            filterButtons.forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-            
-            // Filter offers
-            filterOffersByCard(this.dataset.card);
-        });
-    });
-}
-
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
-    loadOffers();
-    setupSearch();
-    setupFilters();
+    // Setup checkbox filtering
+    const checkboxes = document.querySelectorAll('.checkbox-option input');
+    const selectAllBtn = document.getElementById('selectAll');
+    const clearAllBtn = document.getElementById('clearAll');
+    
+    // Add event listeners to checkboxes
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', applyFiltersAndRender);
+    });
+    
+    // Select all button
+    selectAllBtn.addEventListener('click', function() {
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        applyFiltersAndRender();
+    });
+    
+    // Clear all button
+    clearAllBtn.addEventListener('click', function() {
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        applyFiltersAndRender();
+    });
+    
+    // Set up search functionality
+    document.getElementById('searchInput').addEventListener('input', function() {
+        // Debounce search to improve performance
+        clearTimeout(this.searchTimeout);
+        this.searchTimeout = setTimeout(() => {
+            applyFiltersAndRender();
+        }, 300);
+    });
+    
+    // Extension link
+    document.getElementById('extensionLink').addEventListener('click', function(e) {
+        e.preventDefault();
+        // Replace with your actual Chrome Web Store URL when available
+        alert('Coming soon to the Chrome Web Store!');
+        // Uncomment when you have the Chrome Web Store URL:
+        // window.open('https://chrome.google.com/webstore/detail/your-extension-id', '_blank');
+    });
+    
+    // Load offers and apply filters
+    loadOffers().then(() => {
+        applyFiltersAndRender();
+    });
 });
