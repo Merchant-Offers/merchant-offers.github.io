@@ -224,6 +224,13 @@
     "category": "General"
   },
   {
+    "card": "Citi",
+    "merchant": "Aldo",
+    "offer": "4.5% Back",
+    "days_left": "3d left",
+    "category": "General"
+  },
+  {
     "card": "Chase",
     "merchant": "Aldo",
     "offer": "7% cash back",
@@ -242,13 +249,6 @@
     "merchant": "Aldo",
     "offer": "7% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Aldoshoes",
-    "offer": "4.5% Back",
-    "days_left": "3d left",
     "category": "General"
   },
   {
