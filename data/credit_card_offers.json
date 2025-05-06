@@ -1,16 +1,16 @@
 [
   {
-    "card": "Chase",
+    "card": "Wellsfargo",
     "merchant": "1-800-Flowers",
     "offer": "10% cash back",
-    "days_left": "",
+    "days_left": "Expires  05/23/25",
     "category": "General"
   },
   {
-    "card": "Amex - New Card Offer",
+    "card": "Citi",
     "merchant": "1-800-Flowers",
-    "offer": "Earn 20% back on purchases, up to a total of $25",
-    "days_left": "",
+    "offer": "14% back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -21,17 +21,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "1-800-Flowers",
-    "offer": "15% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "1stDibs",
-    "offer": "$100 back",
-    "days_left": "29d left",
+    "offer": "$100 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -42,20 +35,6 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "7 For All Mankind",
-    "offer": "Earn 6% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "7 For All Mankind",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "A.L.C",
     "offer": "4% cash back",
@@ -63,17 +42,31 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "AT&T",
-    "offer": "$75 cash back",
+    "card": "US Bank",
+    "merchant": "AARP",
+    "offer": "$8 cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
+    "merchant": "AARP",
+    "offer": "$8 cash back",
+    "days_left": "Expires  06/01/25",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "AARP",
+    "offer": "$8 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
     "merchant": "AT&T",
-    "offer": "$75 cash back",
-    "days_left": "Expires  04/29/25",
+    "offer": "$50 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -87,14 +80,7 @@
     "card": "Citi",
     "merchant": "AT&T",
     "offer": "$50 back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Accessories.Ford",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -102,20 +88,6 @@
     "merchant": "Acme Tools",
     "offer": "2% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Adidas",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Adidas",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -147,38 +119,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Airalo",
-    "offer": "6% Back",
-    "days_left": "15d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Airdoctorpro",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Aj Madison",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Aldo",
-    "offer": "7% cash back",
+    "card": "Amex",
+    "merchant": "Aka",
+    "offer": "Spend $750 or more, earn $150 back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Aldo",
-    "offer": "7% cash back",
-    "days_left": "Expires  04/14/25",
     "category": "General"
   },
   {
@@ -189,10 +133,24 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Amex",
+    "merchant": "Aldo",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Aldo",
+    "offer": "7% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
     "merchant": "Alexanderwang",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -203,10 +161,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Aliceandolivia",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Alignerco",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -217,17 +175,31 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Allbirds",
-    "offer": "8% back",
-    "days_left": "29d left",
+    "card": "PayPal",
+    "merchant": "Allpowers",
+    "offer": "2.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Amazon",
+    "offer": "$5 cash back",
+    "days_left": "Expires  06/02/25",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Amazon",
     "offer": "3% back",
-    "days_left": "29d left",
+    "days_left": "25d left",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Amazon",
+    "offer": "Spend $50 or more, earn 500 Membership Rewards\u00ae points, up to 1,500 points",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -238,6 +210,13 @@
     "category": "General"
   },
   {
+    "card": "US Bank",
+    "merchant": "American Home Shield",
+    "offer": "$25 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "Chase",
     "merchant": "American Home Shield",
     "offer": "$25 cash back",
@@ -245,17 +224,10 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "American Home Shield",
-    "offer": "$25 cash back",
-    "days_left": "2 days left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Anastasiabeverlyhills",
-    "offer": "3% Back",
-    "days_left": "31d left",
+    "card": "Wellsfargo",
+    "merchant": "Ancestry",
+    "offer": "15% cash back",
+    "days_left": "Expires  06/06/25",
     "category": "General"
   },
   {
@@ -263,13 +235,6 @@
     "merchant": "Ancestry",
     "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ancestry",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -280,52 +245,31 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
-    "merchant": "Anker",
-    "offer": "4% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Aquatica",
-    "offer": "10% back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Aquatruwater",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
+    "card": "Chase",
     "merchant": "Arco",
     "offer": "3% cash back",
-    "days_left": "Expires  04/29/25",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ardene",
-    "offer": "3% Back",
-    "days_left": "1d left",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Ariat",
-    "offer": "10% cash back",
-    "days_left": "4 days left",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "US Bank",
     "merchant": "Ariat",
     "offer": "10% cash back",
-    "days_left": "4 days left",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Ariat International",
+    "offer": "7% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Ariat International",
+    "offer": "Spend $100 or more, earn $20 back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -338,77 +282,21 @@
   {
     "card": "PayPal",
     "merchant": "Armani US",
-    "offer": "6% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Armra",
-    "offer": "10% cash back",
+    "offer": "4% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Amex",
-    "merchant": "Aroma360",
-    "offer": "Earn 11% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Aroma360",
-    "offer": "12% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Asics",
-    "offer": "4% back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Asics",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
     "merchant": "At Home",
-    "offer": "3% Back",
-    "days_left": "30d left",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Athletic Propulsion Labs",
     "offer": "5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Augustinusbader",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Augustinusbader",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Auntie Anne's",
-    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -420,24 +308,10 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
-    "merchant": "Avelo Airlines",
-    "offer": "5% cash back",
+    "card": "Chase",
+    "merchant": "Away",
+    "offer": "$100 cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Avery",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Avery",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -448,31 +322,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bakedbymelissa",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
     "merchant": "Ballard Designs",
     "offer": "Spend $100 or more, earn $25 back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ballard Designs",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Barbeques Galore",
-    "offer": "6% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -497,13 +350,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bebe",
-    "offer": "5% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Beginning Boutique Us",
     "offer": "6% cash back",
@@ -511,38 +357,10 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Beis",
-    "offer": "10% cash back",
-    "days_left": "8 days left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ben Bridge",
-    "offer": "2% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Benchmark Wine Group",
-    "offer": "Spend $200 or more, earn $40",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Benefitcosmetics",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Best Buy",
     "offer": "10% cash back",
-    "days_left": "5 days left",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -550,13 +368,6 @@
     "merchant": "Best Buy",
     "offer": "Earn +1 Membership Rewards\u00ae point per eligible dollar spent, up to 5,000 points",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Bestbullysticks",
-    "offer": "4.5% Back",
-    "days_left": "15d left",
     "category": "General"
   },
   {
@@ -576,15 +387,8 @@
   {
     "card": "PayPal",
     "merchant": "Beyond Yoga",
-    "offer": "3.5% cash back",
+    "offer": "3% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Beyond Yoga",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -592,13 +396,6 @@
     "merchant": "Beyondyoga",
     "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Bioptimizers",
-    "offer": "8% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -616,24 +413,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Bissell",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Bissell",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Citi",
     "merchant": "Bi\u00f6m",
     "offer": "20% back",
-    "days_left": "29d left",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -644,17 +427,24 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Black Rifle Coffee Company",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Blackstone Products",
+    "offer": "1.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "Wellsfargo",
     "merchant": "Blue Apron",
     "offer": "15% cash back",
-    "days_left": "",
+    "days_left": "Expires  05/18/25",
+    "category": "General"
+  },
+  {
+    "card": "Citi",
+    "merchant": "Blue Apron",
+    "offer": "$24 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -665,10 +455,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "Blue Apron",
-    "offer": "$25 back",
-    "days_left": "29d left",
+    "offer": "15% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -679,23 +469,16 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Bluemercury",
-    "offer": "10% cash back",
+    "card": "US Bank",
+    "merchant": "Blueland",
+    "offer": "15% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bluemercury",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Chase",
-    "merchant": "Bob's Discount Furniture",
-    "offer": "$30 cash back",
+    "merchant": "Blueland",
+    "offer": "15% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -703,7 +486,14 @@
     "card": "US Bank",
     "merchant": "Bob's Discount Furniture",
     "offer": "$30 cash back",
-    "days_left": "2 days left",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Bob's Discount Furniture",
+    "offer": "$30 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -714,34 +504,6 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Bobbie",
-    "offer": "$20 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Bobicks Golf",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Boden",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Boden",
-    "offer": "10% cash back",
-    "days_left": "Expires  05/16/25",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Boden",
     "offer": "10% cash back",
@@ -749,38 +511,52 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bombas",
-    "offer": "6% back",
-    "days_left": "29d left",
+    "card": "Amex",
+    "merchant": "Bonpoint",
+    "offer": "Spend $300 or more, earn $60 back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bondno9",
-    "offer": "7% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Botanic Choice",
+    "offer": "7.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Boscovs",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Bowlero",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Bouqs Flower Subscription",
+    "offer": "Spend $40 or more, earn $20 back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Bp",
     "offer": "5% back",
-    "days_left": "60d left",
+    "days_left": "25d left",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Branch Furnitur",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Branch Furniture",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Branch Furniture",
+    "offer": "Earn 10% back on purchases, up to a total of $67",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -798,7 +574,7 @@
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Brilliant Earth",
     "offer": "5% cash back",
     "days_left": "",
@@ -808,35 +584,49 @@
     "card": "Wellsfargo",
     "merchant": "Brilliant Earth",
     "offer": "5% cash back",
-    "days_left": "Expires  05/15/25",
+    "days_left": "10 days left",
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Chase",
     "merchant": "Brilliant Earth",
     "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Brookstone",
-    "offer": "5% back",
-    "days_left": "60d left",
+    "card": "Chase",
+    "merchant": "British Airways",
+    "offer": "5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Brooks Running",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Brooks Running",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Bstn Store",
-    "offer": "3.5% cash back",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Buck Creek Pizza",
-    "offer": "6% back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Build A Sign",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -848,37 +638,23 @@
   },
   {
     "card": "Citi",
-    "merchant": "Bulova",
-    "offer": "4.5% Back",
-    "days_left": "3d left",
+    "merchant": "Busch Gardens",
+    "offer": "10% back",
+    "days_left": "25d left",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Bumbleandbumble",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Burger King",
+    "card": "Chase",
+    "merchant": "CVS",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
-    "merchant": "Busch Gardens",
-    "offer": "10% back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
     "merchant": "Caesars Rewards Destination",
     "offer": "$25 back",
-    "days_left": "52d left",
+    "days_left": "17d left",
     "category": "General"
   },
   {
@@ -889,37 +665,23 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Calzedonia",
-    "offer": "7% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Campchef",
-    "offer": "4% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Camper US",
+    "offer": "6% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Camping World",
-    "offer": "2.5% cash back",
+    "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Candlewood Suit",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Candlewood Suites",
-    "offer": "10% cash back",
+    "card": "PayPal",
+    "merchant": "Canon",
+    "offer": "2% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -938,23 +700,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Carbonite",
-    "offer": "11% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Carhartt",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Carparts",
-    "offer": "5% cash back",
+    "offer": "7% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -966,17 +714,24 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Casey's",
-    "offer": "3% cash back",
+    "card": "Amex",
+    "merchant": "Carparts",
+    "offer": "Earn 5% back on purchases, up to a total of $8",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Catbirdnyc",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Carparts",
+    "offer": "7% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Case Mate",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -1002,6 +757,13 @@
   },
   {
     "card": "PayPal",
+    "merchant": "Char-Broil",
+    "offer": "2.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
     "merchant": "Charles & Keith US",
     "offer": "2.5% cash back",
     "days_left": "",
@@ -1011,13 +773,6 @@
     "card": "PayPal",
     "merchant": "Charlotte Stone",
     "offer": "4.5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Cheddar's Scratch Kitchen",
-    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1043,20 +798,6 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Chewy",
-    "offer": "$15 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Circle K: Pay At Pump",
-    "offer": "5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Citizen",
     "offer": "2.5% cash back",
@@ -1064,10 +805,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Citizen",
-    "offer": "3% Back",
-    "days_left": "3d left",
+    "card": "PayPal",
+    "merchant": "City Beauty",
+    "offer": "5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -1078,80 +819,45 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Clickandgrow",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Clicks.Tech",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Clinique",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
-    "merchant": "Clothing Shop Online",
+    "merchant": "Clinique",
     "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "PayPal",
     "merchant": "Clothing Shop Online",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "offer": "4% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "US Bank",
     "merchant": "Club Champion",
-    "offer": "$200 back",
-    "days_left": "7d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Cole Haan",
-    "offer": "$25 cash back",
+    "offer": "$100 cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Cole Haan",
-    "offer": "3% Back",
+    "offer": "9.5% Back",
     "days_left": "45d left",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Cole Haan",
+    "offer": "Spend $125 or more, earn $25 back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Colleen Rothschild",
-    "offer": "3% cash back",
+    "offer": "3.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Colleenrothschild",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Colleenrothschild",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -1176,6 +882,13 @@
     "category": "General"
   },
   {
+    "card": "Amex",
+    "merchant": "Constant Contact",
+    "offer": "Spend $140 or more, earn $140 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "PayPal",
     "merchant": "Coop Sleep Goods",
     "offer": "1% cash back",
@@ -1183,24 +896,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Cosori",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "US Bank",
+    "merchant": "Cozy Earth",
+    "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Cosori",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Cottonon",
-    "offer": "4% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -1211,16 +910,9 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Cozy Earth",
-    "offer": "10% cash back",
-    "days_left": "Expires  05/02/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Cozy Earth",
-    "offer": "10% cash back",
+    "card": "PayPal",
+    "merchant": "Craft Sportswear",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1240,22 +932,50 @@
   },
   {
     "card": "Amex",
+    "merchant": "Criquet Shirts",
+    "offer": "Spend $100 or more, earn $30 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Crocs",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Crocs",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
     "merchant": "Crocs",
     "offer": "Earn 6% back on purchases, up to a total of $250",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "Crocs",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "US Bank",
     "merchant": "Crowne Plaza",
     "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Culver's",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1274,30 +994,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Curley's",
-    "offer": "6% back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "D'Artagnan",
     "offer": "1.5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Daily Harvest",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Dairy Queen",
-    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1309,17 +1008,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Davines",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "Darn Tough Vermont",
+    "offer": "3.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Davines",
-    "offer": "4% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -1331,30 +1023,37 @@
   },
   {
     "card": "PayPal",
-    "merchant": "Decoratorsbest",
-    "offer": "3% cash back",
+    "merchant": "Dell",
+    "offer": "2.5% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Dell",
+    "offer": "Earn +1 Membership Rewards\u00ae point per eligible dollar spent, up to 25,000 points",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Dermstore",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Dermstore",
+    "offer": "10% cash back",
+    "days_left": "Expires  06/06/25",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Dell",
-    "offer": "15% cash back",
+    "merchant": "Dermstore",
+    "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Denny's",
-    "offer": "6% back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Design Within Reach",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -1365,59 +1064,52 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Dining",
-    "offer": "10% cash back",
-    "days_left": "5 days left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Dior",
-    "offer": "8% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Discountschoolsupply",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Discovery Cove",
-    "offer": "10% back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Dish",
-    "offer": "$40 cash back",
+    "card": "Amex",
+    "merchant": "Dine In The Uk - Select Merchants",
+    "offer": "Earn 10% back on purchases, up to a total of $250 USD",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Dish",
-    "offer": "$40 cash back",
-    "days_left": "1 day left",
+    "card": "US Bank",
+    "merchant": "Dining",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Dior Beauty",
+    "offer": "5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "US Bank",
     "merchant": "Dish",
     "offer": "$40 cash back",
-    "days_left": "1 day left",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Disney Store",
-    "offer": "1.5% cash back",
+    "offer": "2% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Disney+",
+    "offer": "15% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Disney+",
+    "offer": "15% cash back",
+    "days_left": "Expires  06/03/25",
     "category": "General"
   },
   {
@@ -1429,30 +1121,9 @@
   },
   {
     "card": "US Bank",
-    "merchant": "Disney+",
-    "offer": "15% cash back",
-    "days_left": "2 days left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Dollar General",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
     "merchant": "Domino's",
     "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Domino's",
-    "offer": "10% cash back",
-    "days_left": "4 days left",
     "category": "General"
   },
   {
@@ -1477,13 +1148,6 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Dropbox",
-    "offer": "10% cash back",
-    "days_left": "Expires  04/13/25",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Dropbox",
     "offer": "10% cash back",
@@ -1498,63 +1162,21 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Dropbox",
-    "offer": "20% Back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Drsturm",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Chase",
-    "merchant": "Duluth Trading",
-    "offer": "20% cash back",
+    "merchant": "Dropbox",
+    "offer": "30% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Amex",
-    "merchant": "Dvf",
-    "offer": "Earn 10% back on purchases, up to a total of $250",
+    "merchant": "Dyson",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Dvf",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Dxl",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Dyson",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "E-File",
-    "offer": "32% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "ESPN+",
     "offer": "15% cash back",
     "days_left": "",
@@ -1568,101 +1190,45 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Citi",
+    "merchant": "ESPN+",
+    "offer": "15% back",
+    "days_left": "55d left",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
     "merchant": "ESPN+",
     "offer": "15% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "ESPN+",
-    "offer": "15% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Easyclosets",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Eberjey",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
-    "merchant": "Eberjey",
-    "offer": "2% cash back",
+    "merchant": "Eddie Bauer",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Eberjey",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "Chase",
+    "merchant": "Eileen Fisher",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Eberjey",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ecco",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Edwin Watts Golf Shops",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Eightsleep",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "Elemis Us",
+    "offer": "2.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Eightsleep",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Eileenfisher",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Electronics.Sony",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Elfcosmetics",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Elfcosmetics",
-    "offer": "8% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -1673,31 +1239,17 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Eltamd",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "Wellsfargo",
+    "merchant": "Elizabeth Arden",
+    "offer": "10% cash back",
+    "days_left": "10 days left",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Elizabeth Arden",
+    "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Eltamd",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "PayPal",
-    "merchant": "Elvie Us",
-    "offer": "3% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Emergency Assistance Plus",
-    "offer": "$100 back",
-    "days_left": "29d left",
     "category": "General"
   },
   {
@@ -1708,20 +1260,6 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Entertainment",
-    "offer": "25% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Entertainment",
-    "offer": "25% cash back",
-    "days_left": "Expires  05/03/25",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Entertainment",
     "offer": "25% cash back",
@@ -1729,10 +1267,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Epicurean",
-    "offer": "4% back",
-    "days_left": "30d left",
+    "card": "Chase",
+    "merchant": "Entertainment",
+    "offer": "25% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -1743,28 +1281,21 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Ericjavits",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "Erno Laszlo",
+    "offer": "2% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Ericjavits",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Est\u00e9e Lauder",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Chase",
     "merchant": "Est\u00e9e Lauder",
     "offer": "10% cash back",
     "days_left": "",
@@ -1778,20 +1309,6 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Evelom",
-    "offer": "Earn 6% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Evelom",
-    "offer": "7% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Evenflo",
     "offer": "2.5% cash back",
@@ -1799,30 +1316,23 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Event Tickets C",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "Amex",
     "merchant": "Event Tickets Center",
-    "offer": "10% cash back",
+    "offer": "Earn 15% back on a single purchase, up to a total of $75",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Eventticketscenter",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Ever Pretty",
+    "offer": "6.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Chase",
     "merchant": "Everyplate",
-    "offer": "15% cash back",
+    "offer": "$5 cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1834,58 +1344,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Everythingbutwater",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Evo",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Expedia.Com/Amex (Prepaid Hotel Purchases)",
-    "offer": "Earn 10% back on purchases, up to a total of $125 by using the link provided",
-    "days_left": "Expires in 5 days",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Express",
-    "offer": "10% cash back",
-    "days_left": "Expires  05/10/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Express",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Express",
-    "offer": "Earn 10% back on purchases, up to a total of $14",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Exxon",
-    "offer": "$2 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex - New Card Offer",
-    "merchant": "Exxon And Mobil",
-    "offer": "Earn 10% back on purchases, up to a total of $20",
+    "merchant": "Everything But Water",
+    "offer": "Spend $250 or more, earn $75 back",
     "days_left": "",
     "category": "General"
   },
@@ -1899,28 +1360,14 @@
   {
     "card": "PayPal",
     "merchant": "Eyebuydirect",
-    "offer": "2% cash back",
+    "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Eyeconic",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Eyeconic",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "FabFitFun",
-    "offer": "15% cash back",
+    "card": "PayPal",
+    "merchant": "Ezcosplay",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1928,20 +1375,34 @@
     "card": "Wellsfargo",
     "merchant": "Factor",
     "offer": "$6 cash back",
-    "days_left": "Expires  05/15/25",
+    "days_left": "10 days left",
     "category": "General"
   },
   {
     "card": "Citi",
-    "merchant": "Faherty",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "merchant": "Factor75",
+    "offer": "$5 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
     "card": "Amex",
     "merchant": "Fahertybrand",
     "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Faire",
+    "offer": "Earn 30% back on a single purchase, up to a total of $120",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Fairytale Brownies",
+    "offer": "Spend $100 or more, earn $20 back",
     "days_left": "",
     "category": "General"
   },
@@ -1953,37 +1414,23 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Falconeri",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Famous Footwear",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "US Bank",
+    "merchant": "Fanatics",
+    "offer": "10% cash back",
+    "days_left": "1 day left",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
     "merchant": "Fanatics",
     "offer": "10% cash back",
-    "days_left": "Expires  04/13/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Fanatics",
-    "offer": "10% cash back",
-    "days_left": "",
+    "days_left": "1 day left",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Favorite Daughter",
-    "offer": "3.5% cash back",
+    "offer": "4% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -1997,7 +1444,7 @@
   {
     "card": "PayPal",
     "merchant": "Filters Fast",
-    "offer": "0.5% cash back",
+    "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2009,31 +1456,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Fitflop",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Fly By Jing",
+    "offer": "1.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Fitzandfloyd",
-    "offer": "4.5% Back",
-    "days_left": "43d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Fleurdumal",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Fool",
-    "offer": "10% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Forever 21",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2051,17 +1484,17 @@
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Fragrance",
     "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Fragrance",
-    "offer": "5% cash back",
-    "days_left": "2 days left",
+    "card": "Amex",
+    "merchant": "Fragrancenet",
+    "offer": "Spend $125 or more, earn $25 back, up to 2 times (total of $50).",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2072,66 +1505,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Frame-Store",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Francesvalentine",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Frank & Eileen",
-    "offer": "20% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
     "card": "Amex",
     "merchant": "Frankandeileen",
     "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Frankandeileen",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Fredmeyerjewelers",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Fresh",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Fresh",
-    "offer": "4% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Fulton Fish Market",
     "offer": "$20 back",
-    "days_left": "90d left",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -2143,20 +1527,41 @@
   },
   {
     "card": "PayPal",
+    "merchant": "Fytoo",
+    "offer": "4% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
     "merchant": "G.H.Bass",
     "offer": "2% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "PayPal",
+    "merchant": "Gardener's Supply",
+    "offer": "5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
     "merchant": "Gardyn",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Wellsfargo",
+    "merchant": "Gardyn",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
     "merchant": "Gardyn",
     "offer": "10% cash back",
     "days_left": "",
@@ -2165,13 +1570,6 @@
   {
     "card": "US Bank",
     "merchant": "Gaylord Oprylan",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Gaylord Opryland",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
@@ -2186,29 +1584,8 @@
   {
     "card": "PayPal",
     "merchant": "Geekbuying",
-    "offer": "4% cash back",
+    "offer": "2.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Ghostbed",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ghostbed",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Giant Food",
-    "offer": "1.5% Back",
-    "days_left": "30d left",
     "category": "General"
   },
   {
@@ -2219,10 +1596,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "Glasses Usa",
-    "offer": "$10 back",
-    "days_left": "29d left",
+    "offer": "5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2240,80 +1617,38 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Gobble",
-    "offer": "$16 Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Golf And Ski",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Golfdom",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Golfers Warehouse",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Goodstoneinc",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "merchant": "Gorjana",
+    "offer": "Spend $125 or more, earn 2,500 Membership Rewards\u00ae points, up to 2 times",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Goodstoneinc",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "US Bank",
+    "merchant": "Great Wolf Lodg",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Gourmetgiftbaskets",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Graham + Fisk's Wine-In-A-Can",
-    "offer": "$30 back",
-    "days_left": "52d left",
+    "card": "Wellsfargo",
+    "merchant": "Great Wolf Lodge",
+    "offer": "10% cash back",
+    "days_left": "Expires  06/30/25",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
     "merchant": "Green Chef",
     "offer": "$6 cash back",
-    "days_left": "Expires  05/15/25",
+    "days_left": "10 days left",
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Grownalchemist",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
+    "card": "Chase",
+    "merchant": "Green Chef",
+    "offer": "$10 cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Grownalchemist",
-    "offer": "8% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -2324,9 +1659,23 @@
     "category": "General"
   },
   {
+    "card": "Amex",
+    "merchant": "Gr\u00fcns",
+    "offer": "Earn 15% back on a single purchase, up to a total of $18",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "PayPal",
     "merchant": "HP",
-    "offer": "2.5% cash back",
+    "offer": "1% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "HP",
+    "offer": "$50 cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2345,23 +1694,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Happiestbaby",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Happy & Polly",
     "offer": "5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Hardee's",
-    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2380,30 +1715,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Harmanaudio",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Harper Wilde",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Harper Wilde",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "PayPal",
     "merchant": "Harry & David",
-    "offer": "10% cash back",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2415,17 +1729,10 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
+    "card": "Chase",
     "merchant": "Harry & David",
-    "offer": "5% cash back",
+    "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Harry & David",
-    "offer": "15% back",
-    "days_left": "90d left",
     "category": "General"
   },
   {
@@ -2453,20 +1760,27 @@
     "card": "Wellsfargo",
     "merchant": "HelloFresh",
     "offer": "$6 cash back",
-    "days_left": "Expires  05/15/25",
+    "days_left": "10 days left",
     "category": "General"
   },
   {
     "card": "Citi",
-    "merchant": "Herman Miller",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "merchant": "HelloFresh",
+    "offer": "$5 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
-    "card": "Amex - Member Week Offer",
-    "merchant": "Hertz",
-    "offer": "Spend $350 or more, earn $70 back",
+    "card": "Chase",
+    "merchant": "HelloFresh",
+    "offer": "$10 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Heydude",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2478,10 +1792,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "Heydude",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2492,17 +1806,10 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Hilton",
-    "offer": "10% cash back",
-    "days_left": "1 day left",
-    "category": "General"
-  },
-  {
     "card": "Amex - Member Week Offer",
     "merchant": "Hilton",
     "offer": "Spend $250 or more, earn $75 back",
-    "days_left": "",
+    "days_left": "Expires in 13 days",
     "category": "General"
   },
   {
@@ -2521,121 +1828,93 @@
   },
   {
     "card": "US Bank",
-    "merchant": "Holiday Inn Exp",
+    "merchant": "Home Chef",
+    "offer": "20% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Home Chef",
+    "offer": "20% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Honest",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Honeylove",
+    "offer": "5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Honeylove",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Hotels.Com/Amex (Prepaid Hotel Purchases)",
+    "offer": "Earn 8% back on purchases, up to a total of $100 after using the link provided",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Hudson Jeans",
+    "offer": "4% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Hugo Boss",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
-    "merchant": "Holiday Inn Express",
+    "merchant": "Hugo Boss",
     "offer": "10% cash back",
     "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Home Chef",
-    "offer": "20% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Home Chef",
-    "offer": "20% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Honest",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Honeylove",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Honeylove",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Hotelcollection",
-    "offer": "Earn 11% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Hotelcollection",
-    "offer": "12% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Hrblock",
-    "offer": "$8 Back",
-    "days_left": "15d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
     "merchant": "Hugo Boss",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Hugo Boss",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Hukgear",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Hukgear",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "Wellsfargo",
     "merchant": "Hungryroot",
     "offer": "$10 cash back",
-    "days_left": "",
+    "days_left": "8 days left",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Hydroflask",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Hydro Flask",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Ifly Indoor Skydiving",
     "offer": "4% back",
-    "days_left": "60d left",
+    "days_left": "25d left",
     "category": "General"
   },
   {
@@ -2646,10 +1925,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Igloocoolers",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "US Bank",
+    "merchant": "Iherb",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2657,27 +1936,6 @@
     "merchant": "Iherb",
     "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Iherb",
-    "offer": "10% cash back",
-    "days_left": "1 day left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Iherb",
-    "offer": "2% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Indochino",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -2688,6 +1946,13 @@
     "category": "General"
   },
   {
+    "card": "Wellsfargo",
+    "merchant": "Insomnia Cookies",
+    "offer": "10% cash back",
+    "days_left": "9 days left",
+    "category": "General"
+  },
+  {
     "card": "Chase",
     "merchant": "Insomnia Cookies",
     "offer": "10% cash back",
@@ -2695,52 +1960,17 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Insomnia Cookies",
-    "offer": "10% cash back",
-    "days_left": "Expires  05/14/25",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Instacart",
     "offer": "10% cash back",
-    "days_left": "5 days left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Intercontinenta",
-    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Intercontinental Hotels & Resorts",
-    "offer": "10% cash back",
-    "days_left": "Expires  05/31/25",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Interiordefine",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "It Cosmetics",
+    "offer": "7.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Interiordefine",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Intimissimi",
-    "offer": "8% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -2758,45 +1988,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Jbl",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Jeandousset",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Citi",
     "merchant": "Jetblue",
-    "offer": "$25 back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Jins",
-    "offer": "Earn 9% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Jins",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Jo Malone",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "offer": "$50 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -2814,31 +2009,24 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Jonathanadler",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kate Spade",
-    "offer": "3% back",
-    "days_left": "14d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Kathykuohome",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "Journeys",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Kathykuohome",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Kay Jewelers",
+    "offer": "Spend $500 or more, earn $100 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Kenny Flowers",
+    "offer": "20% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -2849,44 +2037,23 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Kentucky Fried Chicken",
+    "card": "US Bank",
+    "merchant": "Kicks Crew",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Kerastase",
-    "offer": "5.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Keurig",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Kickscrew",
-    "offer": "Earn 8% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kickscrew",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Wellsfargo",
+    "merchant": "Kicks Crew",
+    "offer": "10% cash back",
+    "days_left": "Expires  06/19/25",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Kindle",
-    "offer": "20% cash back",
+    "merchant": "Kicks Crew",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -2894,84 +2061,21 @@
     "card": "Wellsfargo",
     "merchant": "Kindle",
     "offer": "20% cash back",
-    "days_left": "10 days left",
+    "days_left": "Expires  05/21/25",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Kindle And Kindle Unlimited",
     "offer": "$4 back",
-    "days_left": "90d left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Kindle Unlimite",
-    "offer": "20% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Kindle Unlimited",
-    "offer": "20% cash back",
-    "days_left": "",
+    "days_left": "55d left",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
     "merchant": "Kindle Unlimited",
     "offer": "20% cash back",
-    "days_left": "10 days left",
-    "category": "General"
-  },
-  {
-    "card": "PayPal",
-    "merchant": "Kinn",
-    "offer": "1% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kipling",
-    "offer": "3% Back",
-    "days_left": "4d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kipling-Usa",
-    "offer": "3% Back",
-    "days_left": "4d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Kiwico",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Kiwico",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kiwico",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kobo",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "days_left": "Expires  05/21/25",
     "category": "General"
   },
   {
@@ -2979,13 +2083,6 @@
     "merchant": "Kohler",
     "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kohler",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -2996,24 +2093,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Korres",
-    "offer": "8% Back",
-    "days_left": "5d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Kuhl",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "PayPal",
+    "merchant": "Ksubi Us",
+    "offer": "1% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kuhl",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3021,13 +2104,6 @@
     "merchant": "Kylie Cosmetics",
     "offer": "2.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Kyliecosmetics",
-    "offer": "6% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3052,10 +2128,24 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Labseries",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Lab Series",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Laifen",
+    "offer": "2.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Lake Pajamas",
+    "offer": "Spend $150 or more, earn $30 back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3080,31 +2170,24 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Las Vegas Golf Superstore",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Laundrysauce",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "US Bank",
+    "merchant": "Leesa Sleep",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Laundrysauce",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Wellsfargo",
+    "merchant": "Leesa Sleep",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Ledgeloungers",
-    "offer": "3% Back",
-    "days_left": "24d left",
+    "card": "Chase",
+    "merchant": "Leesa Sleep",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3125,14 +2208,7 @@
     "card": "Wellsfargo",
     "merchant": "Legoland New York",
     "offer": "10% cash back",
-    "days_left": "Expires  05/15/25",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Lenscrafters",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "days_left": "10 days left",
     "category": "General"
   },
   {
@@ -3143,38 +2219,17 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Levoit",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Levoit",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Lewis Jewelers",
-    "offer": "Spend $500 or more, earn $100 back",
+    "card": "PayPal",
+    "merchant": "Levi's",
+    "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Amex",
-    "merchant": "Lg",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "merchant": "Levi's",
+    "offer": "Spend $150 or more, earn $30 back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Lg",
-    "offer": "4% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3192,23 +2247,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Lindt Chocolate",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Linkedin Premium",
-    "offer": "50% back",
-    "days_left": "90d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Liquid I.V",
-    "offer": "10% cash back",
+    "card": "PayPal",
+    "merchant": "Lifepro",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3217,13 +2258,6 @@
     "merchant": "Liquid I.V",
     "offer": "10% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Liquid I.V",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3234,50 +2268,22 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Litter-Robot",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Litter-Robot",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Little Caesars",
-    "offer": "Up to 20%",
-    "days_left": "",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Little Caesars",
-    "offer": "10% cash back",
-    "days_left": "6 days left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Little Spoon",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
-    "merchant": "Little Spoon",
+    "merchant": "Little Caesars",
     "offer": "10% cash back",
-    "days_left": "Expires  04/30/25",
+    "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Little Spoon",
+    "card": "Chase",
+    "merchant": "Little Caesars",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
@@ -3299,7 +2305,7 @@
   {
     "card": "PayPal",
     "merchant": "Logitech",
-    "offer": "2% cash back",
+    "offer": "3.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3311,58 +2317,65 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Logitech",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Long John Silve",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Long John Silver's",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Long John Silver's",
-    "offer": "Earn 10% back on a single purchase, up to a total of $3",
+    "merchant": "LongHorn Steakhouse",
+    "offer": "Earn +2 Membership Rewards\u00ae points per eligible dollar spent, up to 5,000 points",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Lovesac",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Lordhair",
+    "offer": "2.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Lucky Brand",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Luggage Forward",
-    "offer": "$50 back",
-    "days_left": "29d left",
+    "offer": "$48 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Lugless",
     "offer": "$20 back",
-    "days_left": "60d left",
+    "days_left": "25d left",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Lululemon",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Lululemon",
+    "offer": "10% cash back",
+    "days_left": "Expires  06/01/25",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Lululemon",
+    "offer": "Spend $150 or more, earn $30 back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Lume Deodorant",
-    "offer": "10% cash back",
+    "merchant": "Lululemon",
+    "offer": "10% back",
     "days_left": "",
     "category": "General"
   },
@@ -3370,7 +2383,21 @@
     "card": "Amex",
     "merchant": "Lume Deodorant",
     "offer": "Earn 10% back on a single purchase, up to a total of $7",
+    "days_left": "Expires tomorrow",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Lyft",
+    "offer": "10% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Citi",
+    "merchant": "Lyft",
+    "offer": "$5 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -3382,30 +2409,9 @@
   },
   {
     "card": "Citi",
-    "merchant": "MAC Cosmetics",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Macduggal",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Mackenzie Limited",
-    "offer": "Spend $75 or more, earn $20 back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Madame Tussauds",
-    "offer": "5% cash back",
-    "days_left": "",
+    "merchant": "Macy's",
+    "offer": "$5 back",
+    "days_left": "55d left",
     "category": "General"
   },
   {
@@ -3417,8 +2423,8 @@
   },
   {
     "card": "Chase",
-    "merchant": "Made In Cookware",
-    "offer": "10% cash back",
+    "merchant": "Madame Tussauds",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3427,6 +2433,13 @@
     "merchant": "Made In Cookware",
     "offer": "10% cash back",
     "days_left": "Expires  05/16/25",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Made In Cookware",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3439,14 +2452,7 @@
   {
     "card": "PayPal",
     "merchant": "Maidenform",
-    "offer": "4% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Maje Paris",
-    "offer": "Spend $250 or more, earn $50 back",
+    "offer": "0.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3458,31 +2464,24 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Marathon Pay At Pump",
+    "card": "Amex",
+    "merchant": "Manscaped",
+    "offer": "Spend $75 or more, earn $25 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Marathon Petroleum",
     "offer": "3% cash back",
-    "days_left": "9 days left",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Marathonsports",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Marriott",
-    "offer": "10% cash back",
-    "days_left": "5 days left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Martin Foods",
-    "offer": "4% back",
-    "days_left": "29d left",
+    "card": "Amex",
+    "merchant": "Margaritaville Beach House Key West",
+    "offer": "Spend $500 or more, earn $100 back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3493,20 +2492,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Mattress Firm",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Mattress Warehouse",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
     "merchant": "Maurices",
     "offer": "Earn 4% back on purchases, up to a total of $250",
@@ -3514,10 +2499,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Chase",
     "merchant": "Maurices",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "offer": "15% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3528,16 +2513,16 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
-    "merchant": "Max Warehouse",
-    "offer": "2.5% cash back",
+    "card": "Amex",
+    "merchant": "Max",
+    "offer": "Spend $99 or more, earn $25",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "McDonald's",
-    "offer": "10% cash back",
+    "card": "PayPal",
+    "merchant": "Max Warehouse",
+    "offer": "2% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3549,30 +2534,16 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Men's Wearhouse",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Menswearhouse",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Men\u2019S Wearhouse",
-    "offer": "Spend $100 or more, earn $20 back",
+    "merchant": "Micato Safaris - Luxury African Safaris",
+    "offer": "Spend $2,000 or more, earn $400 back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Michael Kors",
-    "offer": "2.5% cash back",
+    "offer": "4% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3584,37 +2555,30 @@
     "category": "General"
   },
   {
+    "card": "PayPal",
+    "merchant": "Minga London US",
+    "offer": "3.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "US Bank",
-    "merchant": "Midas",
+    "merchant": "Minted",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Mikasa",
-    "offer": "4.5% Back",
-    "days_left": "43d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Milly",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Milly",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Wellsfargo",
+    "merchant": "Minted",
+    "offer": "10% cash back",
+    "days_left": "Expires  06/11/25",
     "category": "General"
   },
   {
     "card": "PayPal",
-    "merchant": "Minga London US",
-    "offer": "3.5% cash back",
+    "merchant": "Misa Los Angeles",
+    "offer": "7.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3626,22 +2590,15 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
-    "merchant": "Mls Store",
-    "offer": "1.5% cash back",
+    "card": "Amex",
+    "merchant": "Mizzen+Main",
+    "offer": "Spend $135 or more, earn $40 back, up to 2 times (total of $80).",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Modaoperandi",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
-    "merchant": "Modcloth",
+    "merchant": "Mls Store",
     "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
@@ -3668,20 +2625,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Movado Company Store",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Muck Boots",
-    "offer": "5% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
     "card": "US Bank",
     "merchant": "Mugler",
     "offer": "10% cash back",
@@ -3689,24 +2632,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Murad",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Municipal",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "My Medic",
-    "offer": "0.5% cash back",
+    "offer": "1% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Myfico",
-    "offer": "8% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3714,27 +2650,6 @@
     "merchant": "Myfonts",
     "offer": "7.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Mygardyn",
-    "offer": "5.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Mynuface",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Mynuface",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -3761,15 +2676,15 @@
   {
     "card": "PayPal",
     "merchant": "Naturepedic",
-    "offer": "2.5% cash back",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Naturepedic",
-    "offer": "6.0% Back",
-    "days_left": "1d left",
+    "card": "PayPal",
+    "merchant": "Nautica",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3780,31 +2695,17 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Netgear",
-    "offer": "Spend $125 or more, earn $25 back",
+    "card": "PayPal",
+    "merchant": "Nectar",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Newegg",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Nhc",
-    "offer": "8% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Nike",
-    "offer": "2% back",
-    "days_left": "14d left",
+    "card": "Amex",
+    "merchant": "Net-A-Porter",
+    "offer": "Spend $500 or more, earn $100 back",
+    "days_left": "Expires in 8 days",
     "category": "General"
   },
   {
@@ -3815,10 +2716,10 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Nobull",
-    "offer": "$10 cash back",
-    "days_left": "",
+    "card": "Wellsfargo",
+    "merchant": "Nom Nom",
+    "offer": "$20 cash back",
+    "days_left": "Expires  06/07/25",
     "category": "General"
   },
   {
@@ -3843,13 +2744,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Nothing Bundt Cakes West Lafayette",
-    "offer": "6% back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Nothing Tech - USA",
     "offer": "2.5% cash back",
@@ -3857,37 +2751,23 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Nutrafol",
-    "offer": "Spend $75 or more, earn $20",
+    "card": "PayPal",
+    "merchant": "Nydj",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Nuts",
-    "offer": "10% cash back",
-    "days_left": "4 days left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Nuts",
-    "offer": "$10 back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Obagi",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Oakley",
+    "offer": "Spend $150 or more, earn $30 back, up to 2 times (total of $60).",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Office Depot Officemax",
-    "offer": "1.5% cash back",
+    "offer": "1% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3902,14 +2782,7 @@
     "card": "Citi",
     "merchant": "Olive Garden",
     "offer": "10% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Ollie's Bargain Outlet",
-    "offer": "10% cash back",
-    "days_left": "",
+    "days_left": "25d left",
     "category": "General"
   },
   {
@@ -3920,10 +2793,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Omaha Steaks",
-    "offer": "5.5% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Ollie's Bargain Outlet",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -3934,30 +2807,23 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Orgain",
-    "offer": "5% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Oribe",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "merchant": "Opal Collection",
+    "offer": "Spend $500 or more, earn $100 back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Origins",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Oriental Trading",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Osea",
-    "offer": "10% cash back",
+    "merchant": "Orkin",
+    "offer": "15% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -3972,35 +2838,7 @@
     "card": "Amex",
     "merchant": "Osea",
     "offer": "Earn 10% back on a single purchase, up to a total of $20",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Osprey",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Oura Ring",
-    "offer": "$20 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "Oura Ring",
-    "offer": "$20 cash back",
-    "days_left": "Expires  04/20/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Oura Ring",
-    "offer": "$20 cash back",
-    "days_left": "",
+    "days_left": "Expires tomorrow",
     "category": "General"
   },
   {
@@ -4008,13 +2846,6 @@
     "merchant": "Overton's",
     "offer": "2.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Oxo",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -4026,16 +2857,30 @@
   },
   {
     "card": "US Bank",
-    "merchant": "Palladium Hotel",
+    "merchant": "Palladium",
     "offer": "$40 cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Wellsfargo",
-    "merchant": "Palladium Hotel Group",
+    "merchant": "Palladium",
     "offer": "$40 cash back",
-    "days_left": "Expires  05/01/25",
+    "days_left": "Expires  06/17/25",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Palladium",
+    "offer": "$40 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Palladium Hotel",
+    "offer": "$40 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4046,24 +2891,24 @@
     "category": "General"
   },
   {
-    "card": "PayPal",
+    "card": "Amex",
     "merchant": "Pandora",
-    "offer": "2.5% cash back",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Pandora",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Parachute",
+    "card": "US Bank",
+    "merchant": "Papa Johns",
     "offer": "10% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Papa Johns",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/25/25",
     "category": "General"
   },
   {
@@ -4074,28 +2919,7 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Parachute Home",
-    "offer": "$60 back",
-    "days_left": "90d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Parachute Home",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "PayPal",
-    "merchant": "Parade",
-    "offer": "2.5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Paramount+",
     "offer": "$5 cash back",
     "days_left": "",
@@ -4105,48 +2929,27 @@
     "card": "Wellsfargo",
     "merchant": "Paramount+",
     "offer": "$5 cash back",
-    "days_left": "2 days left",
+    "days_left": "Expires  05/18/25",
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Amex",
     "merchant": "Paramount+",
-    "offer": "$5 cash back",
-    "days_left": "2 days left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Paulaschoice",
-    "offer": "Earn 6% back on purchases, up to a total of $250",
+    "offer": "Spend $12.99 or more, earn $12.99 back, up to 3 times (total of $38.97).",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Paulaschoice",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Pcaskin",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Pcaskin",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Peacock",
-    "offer": "100% cash back",
+    "merchant": "Paramount+",
+    "offer": "$5 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Patagonia",
+    "offer": "$20 cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4165,21 +2968,21 @@
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "Amex",
     "merchant": "Peet's Coffee",
-    "offer": "$14 back",
-    "days_left": "90d left",
+    "offer": "Spend $30 or more, earn 1,500 Membership Rewards\u00ae points",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "US Bank",
     "merchant": "Penn Station",
     "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
+    "card": "Chase",
     "merchant": "Penn Station",
     "offer": "10% cash back",
     "days_left": "",
@@ -4195,7 +2998,7 @@
   {
     "card": "PayPal",
     "merchant": "Petlibro",
-    "offer": "3% cash back",
+    "offer": "4% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4207,37 +3010,23 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Pfaltzgraff",
-    "offer": "4.5% Back",
-    "days_left": "43d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Phillips 66, 76, Conoco Gas | Pump & App Only",
-    "offer": "Earn +2 Membership Rewards\u00ae points per eligible dollar spent",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
+    "card": "PayPal",
     "merchant": "Philosophy",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "offer": "2.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Philosophy",
-    "offer": "4% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
     "card": "US Bank",
-    "merchant": "Polo Ralph Laur",
+    "merchant": "Piada Italian S",
     "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Porsche Design",
+    "offer": "Spend $275 or more, earn $60 back, up to 2 times (total of $120).",
     "days_left": "",
     "category": "General"
   },
@@ -4263,24 +3052,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Proactiv",
-    "offer": "Earn 5% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Proactiv",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Professional Supplement Center",
-    "offer": "8% Back",
-    "days_left": "45d left",
+    "card": "Wellsfargo",
+    "merchant": "Puffy Mattress",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
@@ -4291,10 +3066,24 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Puffy Mattress",
-    "offer": "10% cash back",
-    "days_left": "Expires  04/29/25",
+    "card": "PayPal",
+    "merchant": "Puma",
+    "offer": "2% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Puma",
+    "offer": "Earn 8% back on a single purchase, up to a total of $10",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Pura",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4305,16 +3094,16 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Quince",
-    "offer": "10% cash back",
+    "card": "PayPal",
+    "merchant": "R+Co",
+    "offer": "5.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "PayPal",
-    "merchant": "R+Co",
-    "offer": "2.5% cash back",
+    "card": "Amex",
+    "merchant": "Rag & Bone",
+    "offer": "Spend $275 or more, earn $75 back",
     "days_left": "",
     "category": "General"
   },
@@ -4326,31 +3115,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Raymour & Flanigan",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "Chase",
+    "merchant": "Resortpass",
+    "offer": "$25 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Rcwilley",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Rest",
-    "offer": "5.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Riflepaperco",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Revo",
+    "offer": "3.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4361,52 +3136,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Roark",
-    "offer": "8% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Ross-Simons",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Robert Graham",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Robertmondaviwinery",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Roger Dunn Golf Shops",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Roller Rabbit",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
+    "card": "Amex",
     "merchant": "Rta",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Rta",
-    "offer": "4% Cash Back",
-    "days_left": "45d left",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4420,14 +3160,21 @@
     "card": "US Bank",
     "merchant": "Rugs",
     "offer": "7% cash back",
-    "days_left": "2 days left",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Rugsusa",
-    "offer": "3% Back",
-    "days_left": "39d left",
+    "card": "Amex",
+    "merchant": "Rugs",
+    "offer": "Earn 7% back on purchases, up to a total of $27",
+    "days_left": "Expires in 11 days",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Rugs",
+    "offer": "7% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4441,13 +3188,6 @@
     "card": "Chase",
     "merchant": "Rvshare",
     "offer": "15% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Saatchiart",
-    "offer": "Earn 5% back on purchases, up to a total of $250",
     "days_left": "",
     "category": "General"
   },
@@ -4473,8 +3213,22 @@
     "category": "General"
   },
   {
+    "card": "Amex",
+    "merchant": "Save On Your Cable & Internet Bill",
+    "offer": "Spend $50 or more, earn $5 back, up to 4 times (total of $20).",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "PayPal",
     "merchant": "Saxx Underwear US",
+    "offer": "2.5% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Scout Bags",
     "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
@@ -4501,38 +3255,31 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Seaworld",
-    "offer": "8% cash back",
+    "card": "Wellsfargo",
+    "merchant": "Seatgeek",
+    "offer": "5% cash back",
+    "days_left": "Expires  05/17/25",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Seen",
+    "offer": "1% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Seed",
-    "offer": "12% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Serta",
-    "offer": "12% back",
-    "days_left": "90d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Sesame Place",
-    "offer": "10% back",
-    "days_left": "60d left",
+    "card": "US Bank",
+    "merchant": "Shake Shack",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Amex",
     "merchant": "Shake Shack",
-    "offer": "Earn 15% back on a single purchase, up to a total of $6",
-    "days_left": "Expires in 6 days",
+    "offer": "Earn 10% back on a single purchase, up to a total of $3",
+    "days_left": "Expires in 13 days",
     "category": "General"
   },
   {
@@ -4543,51 +3290,30 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Shinola",
-    "offer": "5% back",
-    "days_left": "60d left",
+    "card": "Amex",
+    "merchant": "Sherwin-Williams",
+    "offer": "Spend $60 or more, earn $10",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "PayPal",
+    "merchant": "Shirtspace",
+    "offer": "5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "Amex",
     "merchant": "Shiseido",
     "offer": "Spend $125 or more, earn 20% back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Shop.Panasonic",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Shop.Panasonic",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Shopjura",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Shopjura",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "days_left": "Expires in 14 days",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Showpo US",
-    "offer": "2.5% cash back",
+    "offer": "2% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4599,10 +3325,17 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Silverjeans",
-    "offer": "2% Back",
-    "days_left": "45d left",
+    "card": "US Bank",
+    "merchant": "Simplisafe",
+    "offer": "$75 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Simplisafe",
+    "offer": "$75 cash back",
+    "days_left": "Expires  05/16/25",
     "category": "General"
   },
   {
@@ -4613,20 +3346,6 @@
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Simplisafe",
-    "offer": "$75 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Simply Blooms",
-    "offer": "18% back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Sk-Ii",
     "offer": "2.5% cash back",
@@ -4634,9 +3353,16 @@
     "category": "General"
   },
   {
+    "card": "Chase",
+    "merchant": "Skinceuticals",
+    "offer": "$25 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "PayPal",
     "merchant": "Skytech Gaming",
-    "offer": "3.5% cash back",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4648,34 +3374,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Snakeriverfarms",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Society6",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Society6",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Solawave.Co",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Sony",
     "offer": "5% cash back",
@@ -4683,9 +3381,9 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Sony Electronics",
-    "offer": "15% cash back",
+    "card": "PayPal",
+    "merchant": "Sorel",
+    "offer": "1.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4699,15 +3397,8 @@
   {
     "card": "US Bank",
     "merchant": "Southwest Airlines",
-    "offer": "10% cash back",
+    "offer": "5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Spafinder",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -4718,17 +3409,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Splash",
-    "offer": "$30 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Splendid",
-    "offer": "3% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Sprwmn",
+    "offer": "5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4739,80 +3423,38 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Starbucks",
-    "offer": "10% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Starz",
-    "offer": "$3 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Starz",
-    "offer": "$3 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Stellamccartney",
-    "offer": "4% Back",
-    "days_left": "1d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Stevemadden",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Stitch Fix",
-    "offer": "$12 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Stitch Fix",
-    "offer": "$12 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Stitch Fix",
-    "offer": "$25 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Stop & Shop",
-    "offer": "4% back",
-    "days_left": "90d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Store.Metmuseum",
+    "merchant": "Stanley1913",
     "offer": "Earn 4% back on purchases, up to a total of $250",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
-    "merchant": "Store.Metmuseum",
-    "offer": "4% Back",
-    "days_left": "45d left",
+    "merchant": "Starbucks",
+    "offer": "10% back",
+    "days_left": "25d left",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Stevemadden",
+    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Stitch Fix",
+    "offer": "$12 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Stitch Fix",
+    "offer": "$12 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -4831,8 +3473,22 @@
   },
   {
     "card": "Amex",
-    "merchant": "Supergoop",
-    "offer": "Spend $50 or more, earn $10 back",
+    "merchant": "Sunglass Hut",
+    "offer": "Spend $150 or more, earn $30 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Citi",
+    "merchant": "Sunoco",
+    "offer": "3% back",
+    "days_left": "55d left",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Sunoco\u2019S Premium Grade Fuel",
+    "offer": "Earn 3% back on select gas purchases , up to a total of $20",
     "days_left": "",
     "category": "General"
   },
@@ -4844,6 +3500,13 @@
     "category": "General"
   },
   {
+    "card": "Amex",
+    "merchant": "Sur La Table",
+    "offer": "Spend $100 or more, earn $15 back",
+    "days_left": "Expires in 9 days",
+    "category": "General"
+  },
+  {
     "card": "Chase",
     "merchant": "Sushi Don",
     "offer": "5% cash back",
@@ -4851,51 +3514,16 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Sushi Don",
-    "offer": "6% back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Swansonvitamins",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Swarovski",
+    "offer": "Spend $250 or more, earn $50 back",
+    "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Switchbot",
     "offer": "3% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "T3Micro",
-    "offer": "8% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Tataharperskincare",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Tataharperskincare",
-    "offer": "8% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "TaxAct",
-    "offer": "25% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -4907,16 +3535,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "TaxAct",
-    "offer": "25% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Teleflora",
-    "offer": "10% cash back",
+    "card": "Amex",
+    "merchant": "Tecovas",
+    "offer": "Spend $250 or more, earn $50 back",
     "days_left": "",
     "category": "General"
   },
@@ -4928,10 +3549,45 @@
     "category": "General"
   },
   {
+    "card": "Chase",
+    "merchant": "Teleflora",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "PayPal",
     "merchant": "Teri Jon",
     "offer": "2.5% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "The Art Of Shav",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "The Beaufort Bonnet",
+    "offer": "Spend $100 or more, earn $30 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "The Children's Place",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "The Children's Place",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
@@ -4943,16 +3599,16 @@
   },
   {
     "card": "US Bank",
-    "merchant": "The Children's Place",
-    "offer": "10% cash back",
-    "days_left": "5 days left",
+    "merchant": "The Economist",
+    "offer": "$10 cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "The Children's Place",
-    "offer": "Earn 10% back on a single purchase, up to a total of $10",
-    "days_left": "Expires in 4 days",
+    "card": "Wellsfargo",
+    "merchant": "The Economist",
+    "offer": "$10 cash back",
+    "days_left": "Expires  06/16/25",
     "category": "General"
   },
   {
@@ -4964,16 +3620,9 @@
   },
   {
     "card": "Wellsfargo",
-    "merchant": "The Economist",
-    "offer": "$10 cash back",
-    "days_left": "Expires  04/17/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "The Economist",
-    "offer": "$10 cash back",
-    "days_left": "",
+    "merchant": "The Farmer's Dog",
+    "offer": "$18 cash back",
+    "days_left": "Expires  05/31/25",
     "category": "General"
   },
   {
@@ -4984,65 +3633,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "The Giant",
-    "offer": "4% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "The Golf Mart",
-    "offer": "$10 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
     "card": "Chase",
     "merchant": "The Homestead",
     "offer": "5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "The Outnet",
-    "offer": "Spend $300 or more, earn $75 back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "The Paper Store",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "PayPal",
-    "merchant": "The Princeton Review",
-    "offer": "2.5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "The Tap Brewery And Craft Beer",
-    "offer": "6% back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "The Vitamin Shoppe",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "The Vitamin Shoppe",
-    "offer": "Earn 15% back on a single purchase, up to a total of $11",
     "days_left": "",
     "category": "General"
   },
@@ -5054,48 +3647,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Theartofshaving",
-    "offer": "6% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Thefryecompany",
-    "offer": "8% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Theory",
-    "offer": "Spend $350 or more, earn $50 back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Theouai",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Theouai",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Theprisonerwinecompany",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "Chase",
     "merchant": "Therabody",
     "offer": "15% cash back",
@@ -5103,30 +3654,9 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Thestrat",
-    "offer": "4% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Thisisneeded",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
+    "card": "Amex",
     "merchant": "Thredup",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Thrive Causemetics",
-    "offer": "10% cash back",
+    "offer": "Spend $85 or more, earn $20 back",
     "days_left": "",
     "category": "General"
   },
@@ -5139,57 +3669,50 @@
   },
   {
     "card": "Chase",
-    "merchant": "Thuma",
-    "offer": "$100 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Thuma",
-    "offer": "$100 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Thuma",
-    "offer": "Spend $1,000 or more, earn $100",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Ticketsmarter",
-    "offer": "7% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Ticketsmarter",
-    "offer": "7% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Ticketsmarter",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Ticketsmarter",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Tiff's Treats",
+    "merchant": "Thrive Causemetics",
     "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Thuma",
+    "offer": "$100 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Thuma",
+    "offer": "$100 cash back",
+    "days_left": "Expires  05/31/25",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Thuma",
+    "offer": "$100 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Ticketsmarter",
+    "offer": "7% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Tidal Wave Auto",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
+    "merchant": "Tieks By Gavrieli",
+    "offer": "Spend $150 or more, earn $25 back",
     "days_left": "",
     "category": "General"
   },
@@ -5201,9 +3724,16 @@
     "category": "General"
   },
   {
+    "card": "US Bank",
+    "merchant": "Tire Agent",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "Chase",
     "merchant": "Tire Agent",
-    "offer": "7% cash back",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -5222,13 +3752,6 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Tnuck",
-    "offer": "5.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
     "card": "PayPal",
     "merchant": "Toad&Co",
     "offer": "2.5% cash back",
@@ -5236,9 +3759,23 @@
     "category": "General"
   },
   {
-    "card": "Amex",
+    "card": "US Bank",
     "merchant": "Tommy Hilfiger",
-    "offer": "Spend $75 or more, earn $15 back",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Tommy Hilfiger",
+    "offer": "10% cash back",
+    "days_left": "10 days left",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Tommy Hilfiger",
+    "offer": "10% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -5250,6 +3787,13 @@
     "category": "General"
   },
   {
+    "card": "Amex",
+    "merchant": "Tommyjohn",
+    "offer": "Spend $75 or more, earn $20 back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
     "card": "US Bank",
     "merchant": "Tonal",
     "offer": "$250 cash back",
@@ -5257,44 +3801,16 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Too Faced",
-    "offer": "6% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Tonal",
+    "offer": "Spend $1,000 or more, earn $250 back",
+    "days_left": "Expires in 7 days",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Topgolf",
-    "offer": "15% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Total Wireless",
-    "offer": "25% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Total Wireless",
-    "offer": "$12 Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Tours4Fun",
-    "offer": "1.5% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Tracfone Wireless",
-    "offer": "25% cash back",
+    "card": "PayPal",
+    "merchant": "Trampoline Parts And Supply",
+    "offer": "5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -5306,10 +3822,10 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "Tripadvisor",
-    "offer": "7% cash back",
-    "days_left": "Expires  04/14/25",
+    "card": "PayPal",
+    "merchant": "Trina Turk",
+    "offer": "2.5% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
@@ -5320,10 +3836,10 @@
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Trish's Red Bird Cafe",
-    "offer": "6% back",
-    "days_left": "45d left",
+    "card": "Wellsfargo",
+    "merchant": "Tripadvisor",
+    "offer": "7% cash back",
+    "days_left": "Expires  05/18/25",
     "category": "General"
   },
   {
@@ -5341,9 +3857,9 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Trust & Will",
-    "offer": "$50 cash back",
+    "card": "Amex",
+    "merchant": "True Religion",
+    "offer": "Spend $200 or more, earn $40 back",
     "days_left": "",
     "category": "General"
   },
@@ -5358,48 +3874,20 @@
     "card": "Citi",
     "merchant": "Trust & Will",
     "offer": "$50 back",
-    "days_left": "29d left",
+    "days_left": "55d left",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Tumi",
-    "offer": "15% cash back",
+    "merchant": "Trust & Will",
+    "offer": "$50 cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "TurboTax",
-    "offer": "$20 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Wellsfargo",
-    "merchant": "TurboTax",
-    "offer": "$20 cash back",
-    "days_left": "Expires  04/16/25",
     "category": "General"
   },
   {
     "card": "US Bank",
     "merchant": "TurboTax",
     "offer": "$20 cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "TurboTax",
-    "offer": "$20 back",
-    "days_left": "15d left",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Turo",
-    "offer": "$30 cash back",
     "days_left": "",
     "category": "General"
   },
@@ -5411,30 +3899,30 @@
     "category": "General"
   },
   {
+    "card": "Wellsfargo",
+    "merchant": "Turo",
+    "offer": "$10 cash back",
+    "days_left": "10 days left",
+    "category": "General"
+  },
+  {
     "card": "Citi",
     "merchant": "Turo",
     "offer": "$25 back",
-    "days_left": "90d left",
+    "days_left": "55d left",
     "category": "General"
   },
   {
     "card": "Chase",
-    "merchant": "Udemy",
-    "offer": "20% cash back",
+    "merchant": "Turo",
+    "offer": "$30 cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "Citi",
-    "merchant": "Udemy",
-    "offer": "16% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
     "merchant": "Ugg",
-    "offer": "3% Back",
+    "offer": "2.5% Back",
     "days_left": "45d left",
     "category": "General"
   },
@@ -5443,34 +3931,6 @@
     "merchant": "Ulta",
     "offer": "7% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Chase",
-    "merchant": "Uniqlo Usa",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Uniqlo Usa",
-    "offer": "10% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Universalstandard",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Universalstandard",
-    "offer": "3% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -5489,37 +3949,16 @@
   },
   {
     "card": "Citi",
-    "merchant": "Untuckit",
-    "offer": "8.0% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
     "merchant": "Urbanoutfitters",
-    "offer": "3% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Valvoline",
-    "offer": "10% Back",
+    "offer": "2.5% Back",
     "days_left": "45d left",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Vans",
-    "offer": "3% Back",
-    "days_left": "42d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Vans Golf Shops",
-    "offer": "$10 back",
-    "days_left": "60d left",
+    "offer": "2.5% Back",
+    "days_left": "7d left",
     "category": "General"
   },
   {
@@ -5530,52 +3969,45 @@
     "category": "General"
   },
   {
-    "card": "Amex",
-    "merchant": "Verabradley",
-    "offer": "Earn 4% back on purchases, up to a total of $250",
+    "card": "Chase",
+    "merchant": "Verizon",
+    "offer": "35% cash back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Verabradley",
-    "offer": "3.0% Back",
-    "days_left": "45d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Verishop",
-    "offer": "6% Back",
-    "days_left": "31d left",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Victorinox",
-    "offer": "4% back",
-    "days_left": "29d left",
-    "category": "General"
-  },
-  {
     "card": "Amex",
-    "merchant": "Vince",
-    "offer": "Spend $400 or more, earn $100 back",
+    "merchant": "Versace",
+    "offer": "Spend $750 or more, earn $150 back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Vince",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "PayPal",
+    "merchant": "Viator, A Trip Advisor",
+    "offer": "6% cash back up to $20",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Vincecamuto",
-    "offer": "7% Back",
-    "days_left": "33d left",
+    "card": "PayPal",
+    "merchant": "Viori",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "Vistaprint",
+    "offer": "10% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "Vistaprint",
+    "offer": "10% cash back",
+    "days_left": "Expires  05/18/25",
     "category": "General"
   },
   {
@@ -5586,17 +4018,10 @@
     "category": "General"
   },
   {
-    "card": "Amex",
+    "card": "Chase",
     "merchant": "Vitamix",
-    "offer": "Earn 5% back on purchases, up to a total of $250",
+    "offer": "15% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Vitamix",
-    "offer": "6% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
@@ -5610,63 +4035,63 @@
     "card": "Citi",
     "merchant": "Walmart",
     "offer": "4% back",
-    "days_left": "29d left",
+    "days_left": "25d left",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Webroot",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "Warby Parker",
+    "offer": "Spend $90 or more, earn $20 back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
-    "merchant": "Whiteandwarren",
-    "offer": "4.5% Back",
-    "days_left": "45d left",
+    "card": "Amex",
+    "merchant": "What Goes Around Comes Around",
+    "offer": "Spend $500 or more, earn $100 back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "PayPal",
+    "merchant": "Wiggins Hair",
+    "offer": "4% cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "Wild Alaskan",
+    "offer": "$30 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Amex",
     "merchant": "Wilson",
-    "offer": "10% back",
-    "days_left": "60d left",
+    "offer": "Spend $125 or more, earn $25 back",
+    "days_left": "Expires in 5 days",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "Wine Insiders",
     "offer": "$30 back",
-    "days_left": "60d left",
-    "category": "General"
-  },
-  {
-    "card": "Amex",
-    "merchant": "Wines 'Til Sold Out",
-    "offer": "Spend $100 or more, earn $30",
-    "days_left": "",
+    "days_left": "25d left",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "With Jean US",
-    "offer": "3% cash back",
+    "offer": "2.5% cash back",
     "days_left": "",
     "category": "General"
   },
   {
     "card": "PayPal",
     "merchant": "Wolf & Badger US",
-    "offer": "1% cash back",
+    "offer": "0.5% cash back",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Worldwide Golf Shops",
-    "offer": "$10 back",
-    "days_left": "60d left",
     "category": "General"
   },
   {
@@ -5677,16 +4102,9 @@
     "category": "General"
   },
   {
-    "card": "Chase",
-    "merchant": "Xbox",
-    "offer": "5% cash back",
-    "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "Xbox",
-    "offer": "5% cash back",
+    "card": "PayPal",
+    "merchant": "Wss",
+    "offer": "3.5% cash back",
     "days_left": "",
     "category": "General"
   },
@@ -5707,8 +4125,22 @@
   {
     "card": "PayPal",
     "merchant": "Yoox",
-    "offer": "1.5% cash back",
+    "offer": "3% cash back",
     "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
+    "merchant": "YouTube TV",
+    "offer": "$20 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "Wellsfargo",
+    "merchant": "YouTube TV",
+    "offer": "$20 cash back",
+    "days_left": "Expires  06/28/25",
     "category": "General"
   },
   {
@@ -5719,44 +4151,30 @@
     "category": "General"
   },
   {
-    "card": "Wellsfargo",
-    "merchant": "YouTube TV",
-    "offer": "$20 cash back",
-    "days_left": "Expires  04/28/25",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "YouTube TV",
-    "offer": "$20 cash back",
+    "card": "Amex",
+    "merchant": "Zachys Wine & Liquor",
+    "offer": "Spend $150 or more, earn $30 back, up to 2x (total of $60)",
     "days_left": "",
-    "category": "General"
-  },
-  {
-    "card": "Citi",
-    "merchant": "Zadig-Et-Voltaire",
-    "offer": "6% Back",
-    "days_left": "45d left",
     "category": "General"
   },
   {
     "card": "Amex",
-    "merchant": "Zagg",
-    "offer": "Earn 7% back on purchases, up to a total of $250",
+    "merchant": "Zadig & Voltaire",
+    "offer": "Spend $250 or more, earn $50 back",
     "days_left": "",
     "category": "General"
   },
   {
-    "card": "Citi",
+    "card": "US Bank",
     "merchant": "Zagg",
-    "offer": "8% Back",
-    "days_left": "45d left",
+    "offer": "10% cash back",
+    "days_left": "",
     "category": "General"
   },
   {
-    "card": "US Bank",
-    "merchant": "Zipcar",
-    "offer": "10% cash back",
+    "card": "Amex",
+    "merchant": "Zales",
+    "offer": "Spend $500 or more, earn $100 back",
     "days_left": "",
     "category": "General"
   },
@@ -5768,7 +4186,14 @@
     "category": "General"
   },
   {
-    "card": "Chase",
+    "card": "US Bank",
+    "merchant": "fuboTV",
+    "offer": "$20 cash back",
+    "days_left": "",
+    "category": "General"
+  },
+  {
+    "card": "US Bank",
     "merchant": "fuboTV",
     "offer": "$15 cash back",
     "days_left": "",
@@ -5777,22 +4202,22 @@
   {
     "card": "Wellsfargo",
     "merchant": "fuboTV",
-    "offer": "$15 cash back",
-    "days_left": "2 days left",
-    "category": "General"
-  },
-  {
-    "card": "US Bank",
-    "merchant": "fuboTV",
-    "offer": "$15 cash back",
-    "days_left": "2 days left",
+    "offer": "$20 cash back",
+    "days_left": "Expires  06/02/25",
     "category": "General"
   },
   {
     "card": "Citi",
     "merchant": "fuboTV",
     "offer": "20% back",
-    "days_left": "29d left",
+    "days_left": "86d left",
+    "category": "General"
+  },
+  {
+    "card": "Chase",
+    "merchant": "fuboTV",
+    "offer": "$20 cash back",
+    "days_left": "",
     "category": "General"
   }
 ]
