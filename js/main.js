@@ -39,6 +39,11 @@ async function loadOffers() {
     }
 }
 
+// Normalize card names (e.g., "Capital One" → "capitalone")
+function normalizeCard(name) {
+  return name.toLowerCase().replace(/\s+/g, '').replace(/[^a-z]/g, '');
+}
+
 // Group offers by merchant name
 function organizeOffers(offers) {
     const merchantGroups = {};
@@ -87,18 +92,18 @@ function applyFiltersAndRender() {
     
     if (selectedCards.length > 0) {
         filteredOffers = allOffers.filter(offer => {
+            const normalizedOfferCard = normalizeCard(offer.card);
+            const normalizedSelected = selectedCards.map(normalizeCard);
+
             // Special handling for Amex variations
-            if (selectedCards.includes("Amex") && 
-                (offer.card === "Amex" || 
-                 offer.card === "Amex New Card" || 
-                 offer.card === "Amex Member Week" ||
-                 offer.card.startsWith("Amex"))) {
+            if (normalizedOfferCard.startsWith("amex") && normalizedSelected.includes("amex")) {
                 return true;
             }
-            
-            // Standard filter for other cards
-            return selectedCards.includes(offer.card);
+
+            // Standard card match
+            return normalizedSelected.includes(normalizedOfferCard);
         });
+
         
         // Then filter by search term
         if (searchTerm) {
