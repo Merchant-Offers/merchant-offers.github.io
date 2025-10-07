@@ -92,6 +92,7 @@ function applyFiltersAndRender() {
     
     if (selectedCards.length > 0) {
         filteredOffers = allOffers.filter(offer => {
+            if (normalizeCard(offer.card) === "capitalone") return false;
             const normalizedOfferCard = normalizeCard(offer.card);
             const normalizedSelected = selectedCards.map(normalizeCard);
 
