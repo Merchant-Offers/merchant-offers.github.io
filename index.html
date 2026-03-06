@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merchant Offers - Credit Card Rewards Comparison</title>
-    <meta name="description" content="Find and compare the best credit card offers from American Express, Chase, Citi, Wells Fargo, US Bank, and PayPal">
+    <meta name="color-scheme" content="light dark">
+    <script>
+      (function(){
+        var s = localStorage.getItem('theme');
+        if (s === 'dark' || s === 'light') document.documentElement.dataset.theme = s;
+      })();
+    </script>
+    <title>Credit Card Merchant Offers | cc-offers.com</title>
+    <meta name="description" content="Find and compare credit card merchant offers from Amex, Chase, Citi, Wells Fargo, US Bank, and PayPal. Hosted at cc-offers.com">
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon -->
     <link rel="icon" href="images/icon.png" type="image/png">
@@ -15,7 +22,7 @@
         }
         
         .navigation a {
-            color: #4CAF50;
+            color: var(--accent-color);
             text-decoration: none;
             margin: 0 1rem;
             font-weight: bold;
@@ -26,7 +33,8 @@
         }
         
         .community-section {
-            background-color: #f9f9f9;
+            background-color: var(--surface);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 1.5rem;
             margin: 2rem 0;
@@ -34,7 +42,7 @@
         }
         
         .community-section h3 {
-            color: #4CAF50;
+            color: var(--accent-color);
             margin-top: 0;
         }
         
@@ -43,7 +51,7 @@
         }
         
         .community-section a {
-            color: #4CAF50;
+            color: var(--accent-color);
             font-weight: bold;
             text-decoration: none;
         }
@@ -59,7 +67,8 @@
             align-items: center;
             margin: 1rem 0;
             padding: 1rem;
-            background-color: #f5f5f5;
+            background-color: var(--surface);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
         }
         
@@ -91,44 +100,44 @@
         }
         
         .filter-actions button {
-            background-color: #4CAF50;
+            background-color: var(--accent-color);
             color: white;
             border: none;
             padding: 0.5rem 1rem;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 0.9rem;
             margin-left: 0.5rem;
         }
         
         .filter-actions button:hover {
-            background-color: #45a049;
+            background-color: var(--accent-hover);
         }
         
         /* No results message */
         .no-results {
             text-align: center;
             padding: 2rem;
-            background-color: #f9f9f9;
+            background-color: var(--surface);
             border-radius: 8px;
             margin: 2rem 0;
-            color: #666;
+            color: var(--text-muted);
         }
         
         .no-results h3 {
-            color: #4CAF50;
+            color: var(--accent-color);
             margin-top: 0;
         }
         
         /* Make checkboxes more prominent */
         .checkbox-option input[type="checkbox"] {
-            accent-color: #4CAF50;
+            accent-color: var(--accent-color);
         }
 
         .last-updated {
             text-align: center;
             font-size: 0.9rem;
-            color: #666;
+            color: var(--text-muted);
             margin-top: 0.5rem;
         }
         
@@ -165,20 +174,29 @@
     <div class="container">
         <header>
             <div class="logo">
-              <img src="images/icon.png" alt="Merchant Offers Logo" class="logo-icon">
-              <h1>Merchant Offers</h1>
+              <img src="images/icon.png" alt="Credit Card Merchant Offers" class="logo-icon">
+              <h1>Credit Card Merchant Offers</h1>
             </div>
-            <p class="tagline">Find the best credit card rewards across major banks</p>
+            <p class="tagline">Compare offers from Amex, Chase, Citi, Wells Fargo, US Bank &amp; PayPal</p>
         </header>
         
         <div class="last-updated">
-            <p>Last Updated: <span id="lastUpdatedDate">March 2026</span></p>
+            <p>Last Updated: <span id="lastUpdatedDate">…</span></p>
         </div>
         
-        <div class="navigation">
-            <a href="index.html" class="active">Home</a>
-            <a href="help.html">Support</a>
-            <a href="privacy.html">Privacy Policy</a>
+        <div class="nav-row">
+            <div class="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="help.html">Support</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle light/dark mode">
+                <span class="theme-label-light">Light</span>
+                <span class="theme-toggle-track">
+                    <span class="theme-toggle-knob"></span>
+                </span>
+                <span class="theme-label-dark">Dark</span>
+            </button>
         </div>
         
         <div class="disclaimer">
@@ -262,11 +280,12 @@
         </div>
         
         <footer>
-            <p>&copy; 2025 MerchantOffers.online - Updated monthly with the latest card offers</p>
+            <p>&copy; 2026 <a href="https://cc-offers.com">cc-offers.com</a> — Credit Card Merchant Offers, updated monthly</p>
             <p class="disclaimer-footer">This site is for informational purposes only. All offers are subject to change and may not be available to all cardholders.</p>
         </footer>
     </div>
 
+    <script src="js/theme.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

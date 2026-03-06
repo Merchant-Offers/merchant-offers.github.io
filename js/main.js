@@ -1,9 +1,10 @@
 // Global variables
 let allOffers = [];
 // Handle both local and GitHub Pages environments
-const dataUrl = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
-    ? 'data/credit_card_offers.json' 
-    : '/data/credit_card_offers.json';
+const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+const dataBase = isLocal ? 'data' : '/data';
+const dataUrl = dataBase + '/credit_card_offers.json';
+const metaUrl = dataBase + '/meta.json';
 
 // Fetch offers data from JSON file
 async function loadOffers() {
@@ -36,6 +37,20 @@ async function loadOffers() {
         console.log("- Error object:", error);
         
         return [];
+    }
+}
+
+// Load and display last-updated date from meta.json (written by parse_offers.py)
+async function loadLastUpdated() {
+    const el = document.getElementById('lastUpdatedDate');
+    if (!el) return;
+    try {
+        const response = await fetch(metaUrl);
+        if (!response.ok) return;
+        const meta = await response.json();
+        el.textContent = meta.lastUpdatedFormatted || meta.lastUpdated || '—';
+    } catch (_) {
+        el.textContent = '—';
     }
 }
 
@@ -135,18 +150,21 @@ function renderOffers(offers) {
     merchantList.className = 'merchant-list';
     
     // Create a card for each merchant
+    let cardIndex = 0;
     Object.keys(merchantGroups).sort().forEach(merchant => {
         const merchantOffers = merchantGroups[merchant];
+        const detailsId = 'offers-' + (++cardIndex);
         
         const merchantCard = document.createElement('div');
         merchantCard.className = 'merchant-card';
         
         // Create merchant header and toggle button
+        const offerCount = merchantOffers.length;
         const merchantHeader = document.createElement('div');
         merchantHeader.className = 'merchant-header';
         merchantHeader.innerHTML = `
             <div class="merchant-name">${merchant}</div>
-            <button class="toggle-btn">View Offers</button>
+            <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="${detailsId}">View ${offerCount} offer${offerCount !== 1 ? 's' : ''}</button>
         `;
         
         // Find best offer to display on the card
@@ -158,6 +176,9 @@ function renderOffers(offers) {
         // Create offer details section
         const offerDetails = document.createElement('div');
         offerDetails.className = 'offer-details';
+        offerDetails.id = detailsId;
+        offerDetails.setAttribute('role', 'region');
+        offerDetails.setAttribute('aria-label', `${merchant} – all offers`);
         
         // Sort offers by value (best first)
         const sortedOffers = sortOffersByValue(merchantOffers);
@@ -177,10 +198,13 @@ function renderOffers(offers) {
         });
         
         // Add toggle functionality
-        merchantHeader.querySelector('.toggle-btn').addEventListener('click', function() {
+        const toggleBtn = merchantHeader.querySelector('.toggle-btn');
+        toggleBtn.addEventListener('click', function() {
             const isVisible = offerDetails.style.display === 'block';
             offerDetails.style.display = isVisible ? 'none' : 'block';
-            this.textContent = isVisible ? 'View Offers' : 'Hide Offers';
+            this.textContent = isVisible ? `View ${offerCount} offer${offerCount !== 1 ? 's' : ''}` : 'Hide offers';
+            this.setAttribute('aria-expanded', !isVisible);
+            this.classList.toggle('is-open', !isVisible);
         });
         
         // Assemble merchant card
@@ -269,16 +293,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 300);
     });
     
-    // Extension link
-    document.getElementById('extensionLink').addEventListener('click', function(e) {
-        e.preventDefault();
-        // Replace with your actual Chrome Web Store URL when available
-        alert('Coming soon to the Chrome Web Store!');
-        // Uncomment when you have the Chrome Web Store URL:
-        // window.open('https://chrome.google.com/webstore/detail/your-extension-id', '_blank');
-    });
+    // Extension link opens Chrome Web Store in new tab (link href is already set in HTML)
     
-    // Load offers and apply filters
+    // Load last-updated date and offers, then apply filters
+    loadLastUpdated();
     loadOffers().then(() => {
         applyFiltersAndRender();
     });

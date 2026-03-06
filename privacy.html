@@ -3,70 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Merchant Offers Alert</title>
+    <meta name="color-scheme" content="light dark">
+    <script>
+      (function(){
+        var s = localStorage.getItem('theme');
+        if (s === 'dark' || s === 'light') document.documentElement.dataset.theme = s;
+      })();
+    </script>
+    <title>Privacy Policy - Credit Card Merchant Offers | cc-offers.com</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            background-color: #4CAF50;
+        .privacy-page body { font-family: inherit; }
+        .privacy-page main { max-width: 700px; margin: 0 auto; padding: 0 20px; }
+        .privacy-page header {
+            background-color: var(--accent-color);
             color: white;
-            padding: 1rem;
+            padding: 1.25rem;
             text-align: center;
             margin-bottom: 2rem;
-            border-radius: 5px;
+            border-radius: 10px;
         }
-        h1 {
-            margin: 0;
-        }
-        h2 {
-            color: #4CAF50;
-            margin-top: 2rem;
-        }
-        h3 {
-            color: #333;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 0.5rem;
-        }
-        .date {
-            font-style: italic;
-            color: #666;
-            margin-bottom: 2rem;
-        }
-        footer {
-            margin-top: 2rem;
-            padding-top: 1rem;
-            border-top: 1px solid #eee;
-            text-align: center;
-            color: #666;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+        .privacy-page h1 { margin: 0; font-size: 1.5rem; }
+        .privacy-page h2 { color: var(--accent-color); margin-top: 2rem; }
+        .privacy-page h3 { color: var(--secondary-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+        .privacy-page .date { font-style: italic; color: var(--text-muted); margin-bottom: 2rem; }
+        .privacy-page footer a { color: var(--primary-color); text-decoration: none; }
+        .privacy-page footer a:hover { text-decoration: underline; }
     </style>
 </head>
-<body>
+<body class="privacy-page">
+    <div class="container">
     <header>
-        <h1>Privacy Policy for Merchant Offers Alert</h1>
+        <h1>Privacy Policy — Credit Card Merchant Offers</h1>
     </header>
+    
+    <div class="nav-row">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="help.html">Support</a>
+            <a href="privacy.html" class="active">Privacy Policy</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle light/dark mode">
+            <span class="theme-label-light">Light</span>
+            <span class="theme-toggle-track">
+                <span class="theme-toggle-knob"></span>
+            </span>
+            <span class="theme-label-dark">Dark</span>
+        </button>
+    </div>
     
     <main>
         <p class="date">Effective Date: March 21, 2025</p>
         
         <h3>Introduction</h3>
-        <p>This Privacy Policy explains how Merchant Offers Alert ("we", "our", or "the extension") collects, uses, and protects information when you use our browser extension.</p>
+        <p>This Privacy Policy explains how Credit Card Merchant Offers / cc-offers.com ("we", "our", or "the extension") collects, uses, and protects information when you use our browser extension.</p>
         
         <h3>Information We Collect</h3>
-        <p>The Merchant Offers Alert extension collects the following limited information:</p>
+        <p>The Credit Card Merchant Offers extension collects the following limited information:</p>
         <ul>
             <li><strong>Web Browsing Data</strong>: We automatically collect the URLs of websites you visit for the sole purpose of determining if you are visiting a merchant website that has available credit card offers.</li>
             <li><strong>Browser Information</strong>: Basic browser information necessary for the proper functioning of the extension.</li>
@@ -108,12 +102,14 @@
         <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Chrome Web Store and on this page.</p>
         
         <h3>Contact Us</h3>
-        <p>If you have any questions about this Privacy Policy, please visit our <a href="https://merchantoffers.online/help">help page</a> for support information and contact options.</p>
+        <p>If you have any questions about this Privacy Policy, please visit our <a href="help.html">help page</a> for support and contact options.</p>
     </main>
     
     <footer>
-        <p>&copy; 2025 Merchant Offers Alert. All rights reserved.</p>
-        <p><a href="https://merchantoffers.online">Back to Home</a></p>
+        <p>&copy; 2026 cc-offers.com — Credit Card Merchant Offers. All rights reserved.</p>
+        <p><a href="index.html">Back to Home</a></p>
     </footer>
+    </div>
+    <script src="js/theme.js"></script>
 </body>
 </html>
