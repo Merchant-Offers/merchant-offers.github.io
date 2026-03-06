@@ -65,27 +65,24 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            gap: 0.75rem 1.5rem;
             margin: 1rem 0;
-            padding: 1rem;
-            background-color: var(--surface);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
         }
         
         .checkbox-filter-label {
-            margin-right: 1rem;
-            font-weight: bold;
+            font-weight: 600;
+            color: var(--text-color);
         }
         
         .checkbox-option {
             display: flex;
             align-items: center;
-            margin-right: 1.5rem;
-            margin-bottom: 0.5rem;
+            gap: 0.4rem;
         }
         
         .checkbox-option input {
-            margin-right: 0.5rem;
             cursor: pointer;
             width: 18px;
             height: 18px;
@@ -96,22 +93,26 @@
         }
         
         .filter-actions {
+            display: flex;
+            gap: 0.5rem;
             margin-left: auto;
         }
         
         .filter-actions button {
-            background-color: var(--accent-color);
-            color: white;
-            border: none;
-            padding: 0.5rem 1rem;
+            background-color: var(--surface-alt);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 0.4rem 0.75rem;
             border-radius: 6px;
             cursor: pointer;
-            font-size: 0.9rem;
-            margin-left: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background 0.2s, border-color 0.2s;
         }
         
         .filter-actions button:hover {
-            background-color: var(--accent-hover);
+            background-color: var(--border-color);
+            border-color: var(--accent-color);
         }
         
         /* No results message */
@@ -135,10 +136,9 @@
         }
 
         .last-updated {
-            text-align: center;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
-            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
         }
         
         @media (max-width: 768px) {
@@ -180,10 +180,6 @@
             <p class="tagline">Compare offers from Amex, Chase, Citi, Wells Fargo, US Bank &amp; PayPal</p>
         </header>
         
-        <div class="last-updated">
-            <p>Last Updated: <span id="lastUpdatedDate">…</span></p>
-        </div>
-        
         <div class="nav-row">
             <div class="navigation">
                 <a href="index.html" class="active">Home</a>
@@ -200,17 +196,8 @@
         </div>
         
         <div class="extension-promo">
-            <div class="promo-content">
-                <div class="promo-text">
-                    <h3>Get the Chrome Extension</h3>               
-                    <p>Get notified of available offers when you visit merchant websites.</p>
-                    <a href="https://chromewebstore.google.com/detail/merchant-offers-alert/bfalpnjlfmecpefjojohbdaifimoielg" class="promo-button" target="_blank" rel="noopener">Get it on the Chrome Web Store →</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="disclaimer">
-            <p><strong>Disclaimer:</strong> This site provides a guide to potentially available credit card offers. Please check your card issuer's app or website for the most current offers available to you. Offers may vary based on your account and some offers shown here may have expired. We update this information monthly but cannot guarantee accuracy.</p>
+            <span class="promo-text">Get the Chrome Extension — get notified when you visit merchant sites.</span>
+            <a href="https://chromewebstore.google.com/detail/merchant-offers-alert/bfalpnjlfmecpefjojohbdaifimoielg" class="promo-button" target="_blank" rel="noopener">Chrome Web Store →</a>
         </div>
         
         <div class="search-container">
@@ -218,7 +205,7 @@
         </div>
         
         <div class="checkbox-filter">
-            <span class="checkbox-filter-label">Filter by card:</span>
+            <span class="checkbox-filter-label">Filter by bank:</span>
             
             <div class="checkbox-option">
                 <input type="checkbox" id="amex" value="Amex" checked>
@@ -260,6 +247,10 @@
                 <button id="clearAll">Clear All</button>
             </div>
         </div>
+        
+        <div class="last-updated">Last updated: <span id="lastUpdatedDate">…</span></div>
+        
+        <p class="disclaimer-inline">For reference only. Verify offers with your card issuer.</p>
         
         <div id="offersContainer">
             <!-- Offers will be populated here by JavaScript -->
