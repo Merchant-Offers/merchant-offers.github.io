@@ -418,6 +418,44 @@ footer a:hover {
   margin: 0 10px;
 }
 
+/* Extension promo banner */
+.extension-promo {
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.extension-promo .promo-text h3 {
+  margin: 0 0 0.35rem 0;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.extension-promo .promo-text p {
+  margin: 0 0 0.75rem 0;
+  color: rgba(255,255,255,0.95);
+  font-size: 0.95rem;
+}
+
+.extension-promo .promo-button {
+  display: inline-block;
+  background: #fff;
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.extension-promo .promo-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
 /* Theme toggle */
 .nav-row {
   display: flex;
